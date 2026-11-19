@@ -43,7 +43,7 @@ Every page loads Vercel Web Analytics and PostHog. Events: `claim_site_click` (a
 Written 2026-11-19, before any listing or launch. Read on **2026-12-17**.
 
 - **Base rate.** heistclips' Claude connector sent 151 people to its site in its first four days (11/16 to 11/19), 54% of whom used the tool. The Brick & Mortar business connector, same channel, got zero human calls in seven days. The difference: people already ask an AI the heistclips question. "Am I owed money from the X breach" is asked of AI the same way, and spikes around each claim deadline (on 2026-11-19, 31 of the 82 open settlements close within 30 days, 10 within a week).
-- **Expected by 2026-12-17:** 10 people landing from `src=mcp` links, 40 `mcp_tool_call` events, and 30% of all landings clicking through to an official site. Directory listings are not live yet and Claude/ChatGPT review takes days to weeks, so most of this window runs on manual installs and search.
+- **Expected by 2026-12-17:** 10 people landing from `src=mcp` links, 40 `mcp_tool_call` events from real clients (`client` not `script`; my deploy checks are `script`), and 30% of all landings clicking through to an official site. Directory listings are not live yet and Claude/ChatGPT review takes days to weeks, so most of this window runs on manual installs and search.
 - **Would surprise us upward:** 50 or more `src=mcp` people by the read date, meaning the channel works for this question even before a directory listing.
 - **Would surprise us downward:** zero `src=mcp` people with a directory listing live for two weeks or more, meaning nobody asks a connector this question; and under 10% click-through to official sites, meaning the page answers without moving anyone to claim.
 
