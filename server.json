@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.2016judea/breach-to-claim",
+  "title": "Breach to Claim: data breach settlements",
+  "description": "Am I owed money from a data breach? Open settlements, deadlines, payouts and official claim sites",
+  "version": "0.1.0",
+  "websiteUrl": "https://breach-to-claim.vercel.app/connect/",
+  "repository": {
+    "url": "https://github.com/2016judea/breach-to-claim",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://breach-to-claim.vercel.app/mcp"
+    }
+  ]
+}
