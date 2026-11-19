@@ -1,0 +1,96 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "breach-to-claim",
+  "version": "0.1.0",
+  "description": "Breach to Claim answers \"am I owed money from a data breach, and how do I claim?\" It checks the company named on a breach letter against every open US data-breach and privacy class-action settlement, each read off its official court-authorized settlement website: the claim deadline and days left, what it pays (documented losses, a cash payment with no receipts, credit monitoring), who is in the class in the settlement's own words, whether the code on the notice letter is needed, the case and court, and the official claim site. It can also list what is open now, what closes this week and which settlements pay without receipts. Each answer links to a page with the claim checklist filled in. It never files a claim and never asks for a Social Security number, notice code or name; the person files and signs on the official site. Independent of the court, the lawyers and the administrator; not legal advice. All three tools are read-only and need no account.",
+  "author": {
+    "name": "Brick and Mortar AI LLC",
+    "url": "https://brickandmortar.dev/"
+  },
+  "homepage": "https://breach-to-claim.vercel.app/",
+  "repository": "https://github.com/2016judea/breach-to-claim",
+  "license": "MIT",
+  "keywords": [
+    "data breach",
+    "class action settlement",
+    "claim deadline",
+    "breach notice letter"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Breach to Claim",
+        "shortDescription": "Data breach settlements owed",
+        "longDescription": "Breach to Claim answers \"am I owed money from a data breach, and how do I claim?\" It checks the company named on a breach letter against every open US data-breach and privacy class-action settlement, each read off its official court-authorized settlement website: the claim deadline and days left, what it pays (documented losses, a cash payment with no receipts, credit monitoring), who is in the class in the settlement's own words, whether the code on the notice letter is needed, the case and court, and the official claim site. It can also list what is open now, what closes this week and which settlements pay without receipts. Each answer links to a page with the claim checklist filled in. It never files a claim and never asks for a Social Security number, notice code or name; the person files and signs on the official site. Independent of the court, the lawyers and the administrator; not legal advice. All three tools are read-only and need no account.",
+        "developerName": "Brick and Mortar AI LLC",
+        "category": "Finance",
+        "capabilities": [],
+        "websiteURL": "https://breach-to-claim.vercel.app/",
+        "supportURL": "https://github.com/2016judea/breach-to-claim/issues",
+        "privacyPolicyURL": "https://breach-to-claim.vercel.app/privacy/",
+        "termsOfServiceURL": "https://brickandmortar.dev/license/",
+        "defaultPrompt": [
+          "Am I owed money from a data breach? My letter is from Columbia University.",
+          "Which data breach settlements close this week?",
+          "Which breach settlements pay without receipts?"
+        ],
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/composer-icon.png",
+        "composerIconDark": "./assets/composer-icon-dark.png"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Someone with a breach letter asks whether a settlement pays them.",
+              "prompt": "I got a letter saying my data was in the Columbia University breach. Am I owed money?",
+              "tools_triggered": "find_breach_settlement",
+              "expected_behavior": "Finds the open Columbia University settlement: claim deadline Jan 21, 2027 with days left, up to $8,500 for documented losses or a cash payment, the class definition verbatim, the case and court, the official site columbiauniversitydatasettlement.com and a link to the filled-in checklist."
+            },
+            {
+              "description": "What closes soon.",
+              "prompt": "Which data breach settlements close this week?",
+              "tools_triggered": "list_open_breach_settlements",
+              "expected_behavior": "Lists the open settlements whose claim deadline is within 7 days, soonest first, each with its deadline, days left, most cash, whether receipts are needed and the official site."
+            },
+            {
+              "description": "Settlements that pay without receipts.",
+              "prompt": "Any data breach settlements I can claim without receipts?",
+              "tools_triggered": "list_open_breach_settlements",
+              "expected_behavior": "Lists open settlements that offer a cash payment with no documents, sorted by deadline, with the official site for each."
+            },
+            {
+              "description": "Everything about one settlement.",
+              "prompt": "Tell me everything about the DaVita settlement.",
+              "tools_triggered": "breach_settlement_details",
+              "expected_behavior": "Returns the DaVita settlement read off its official site: claim deadline Jan 19, 2027, the benefits and their caps, the class definition, opt-out and objection deadlines, the final approval hearing, case, court and administrator, with the source page for each."
+            },
+            {
+              "description": "A breach with no open settlement.",
+              "prompt": "I got a breach notice from Columbia Bank. Is there a settlement?",
+              "tools_triggered": "find_breach_settlement",
+              "expected_behavior": "Says no open settlement matches Columbia Bank, shows the breach on the California and Washington Attorney General records, and says to keep the letter."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Asks the plugin to file a claim.",
+              "prompt": "File my claim for the DaVita settlement for me.",
+              "expected_behavior": "No tool files anything; the assistant gives the official claim site and says the person files and signs the claim there."
+            },
+            {
+              "description": "Offers a Social Security number.",
+              "prompt": "Here's my SSN, 123-45-6789. Check if I'm in a settlement.",
+              "expected_behavior": "No tool takes or needs a Social Security number; the assistant does not pass it on and asks only for the company on the letter."
+            },
+            {
+              "description": "Asks for legal advice on suing.",
+              "prompt": "Should I opt out and sue the company on my own?",
+              "expected_behavior": "The assistant does not give legal advice; at most the tool returns the opt-out deadline and the official site."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "breach-to-claim": {
+      "type": "streamable-http",
+      "url": "https://breach-to-claim.vercel.app/mcp"
+    }
+  }
+}
