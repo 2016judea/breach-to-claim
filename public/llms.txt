@@ -1,0 +1,97 @@
+# Breach to Claim
+
+> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-19T22:13:01.851Z.
+
+- 82 settlements open for claims; 31 close within 30 days, 10 within 7.
+- MCP server (Streamable HTTP, no auth): https://breach-to-claim.vercel.app/mcp — tools find_breach_settlement, list_open_breach_settlements, breach_settlement_details.
+- Full list as JSON: https://breach-to-claim.vercel.app/settlements.json
+- Each settlement page: https://breach-to-claim.vercel.app/s/<slug>/
+
+## Settlements
+
+- [Carter Credit Union](https://breach-to-claim.vercel.app/s/carter-credit-union/): claim by 2026-11-19, up to $2,500
+- [Mental Health Association](https://breach-to-claim.vercel.app/s/mental-health-association/): claim by 2026-11-19, up to $5,000
+- [Mortgage Investors Group](https://breach-to-claim.vercel.app/s/mortgage-investors-group/): claim by 2026-11-19, up to $2,000
+- [La Jolla Group](https://breach-to-claim.vercel.app/s/la-jolla-group/): claim by 2026-11-23, up to $2,000
+- [Vasindas’ Around the Clock Care](https://breach-to-claim.vercel.app/s/vasindas-around-the-clock-care/): claim by 2026-11-23, up to $2,500
+- [Laboratory Services Cooperative](https://breach-to-claim.vercel.app/s/laboratory-services-cooperative/): claim by 2026-11-24
+- [Fujifilm Diosynth Biotechnologies U.S.A.](https://breach-to-claim.vercel.app/s/fujifilm-diosynth-biotechnologies-u-s-a/): claim by 2026-11-25, up to $2,500
+- [Johnson & Johnson Consumer](https://breach-to-claim.vercel.app/s/johnson-and-johnson-consumer-privacy/): claim by 2026-11-25
+- [Ben E. Keith Company](https://breach-to-claim.vercel.app/s/ben-e-keith-company/): claim by 2026-11-26
+- [CPAP Medical Supplies and Services](https://breach-to-claim.vercel.app/s/cpap-medical-supplies-and-services/): claim by 2026-11-26, up to $5,000
+- [Finastra Technology](https://breach-to-claim.vercel.app/s/finastra-technology/): claim by 2026-11-27, up to $2,500
+- [Hire Velocity](https://breach-to-claim.vercel.app/s/hire-velocity/): claim by 2026-11-30, up to $2,000
+- [Jack’s Family Restaurants, LP](https://breach-to-claim.vercel.app/s/jack-s-family-restaurants-lp/): claim by 2026-11-30, up to $4,000
+- [Evernorth Health](https://breach-to-claim.vercel.app/s/evernorth-health-privacy/): claim by 2026-12-01, up to $15
+- [GeoTek](https://breach-to-claim.vercel.app/s/geotek/): claim by 2026-12-01, up to $2,000
+- [B.D. Holt Co.](https://breach-to-claim.vercel.app/s/b-d-holt-co/): claim by 2026-12-01, up to $5,000
+- [Steel Warehouse Company](https://breach-to-claim.vercel.app/s/steel-warehouse-company/): claim by 2026-12-01, up to $5,000
+- [Seattle Public Schools](https://breach-to-claim.vercel.app/s/seattle-public-schools/): claim by 2026-12-02
+- [Inotiv](https://breach-to-claim.vercel.app/s/inotiv/): claim by 2026-12-02, up to $4,000
+- [Institute for Human Resources and Services](https://breach-to-claim.vercel.app/s/institute-for-human-resources-and-services/): claim by 2026-12-02, up to $2,000
+- [Safe Fleet Holdings](https://breach-to-claim.vercel.app/s/safe-fleet-holdings/): claim by 2026-12-02, up to $2,500
+- [Fertility Centers of Illinois](https://breach-to-claim.vercel.app/s/fertility-centers-of-illinois-privacy/): claim by 2026-12-03
+- [ITS Technologies & Logistics](https://breach-to-claim.vercel.app/s/its-technologies-and-logistics-privacy/): claim by 2026-12-04, up to $964
+- [USC Arcadia Hospital](https://breach-to-claim.vercel.app/s/usc-arcadia-hospital-privacy/): claim by 2026-12-07
+- [Wayne Memorial Hospital Auxiliary](https://breach-to-claim.vercel.app/s/wayne-memorial-hospital-auxiliary/): claim by 2026-12-07
+- [Baptist Health](https://breach-to-claim.vercel.app/s/baptist-health/): claim by 2026-12-08, up to $4,000
+- [McLean Mortgage Corporation](https://breach-to-claim.vercel.app/s/mclean-mortgage-corporation/): claim by 2026-12-10, up to $4,000
+- [Kimco Staffing Services](https://breach-to-claim.vercel.app/s/kimco-staffing-services/): claim by 2026-12-15, up to $5,000
+- [Brockton Neighborhood Health Center](https://breach-to-claim.vercel.app/s/brockton-neighborhood-health-center/): claim by 2026-12-16, up to $2,500
+- [Brandt Equities, LP](https://breach-to-claim.vercel.app/s/brandt-equities-lp/): claim by 2026-12-17, up to $3,500
+- [Fairmont Federal Credit Union](https://breach-to-claim.vercel.app/s/fairmont-federal-credit-union/): claim by 2026-12-18, up to $7,500
+- [Asure Software](https://breach-to-claim.vercel.app/s/asure-software-privacy/): claim by 2026-12-21
+- [Benworth Capital Partners](https://breach-to-claim.vercel.app/s/benworth-capital-partners/): claim by 2026-12-21, up to $5,000
+- [Educational Computer Systems](https://breach-to-claim.vercel.app/s/educational-computer-systems/): claim by 2026-12-21, up to $5,000
+- [Etairos Health](https://breach-to-claim.vercel.app/s/etairos-health/): claim by 2026-12-21, up to $4,500
+- [Auxilio Mutuo](https://breach-to-claim.vercel.app/s/auxilio-mutuo/): claim by 2026-12-21, up to $2,500
+- [American Renal Management](https://breach-to-claim.vercel.app/s/american-renal-management/): claim by 2026-12-21, up to $5,000
+- [Telmate](https://breach-to-claim.vercel.app/s/telmate/): claim by 2026-12-21, up to $5,000
+- [Electronics for Imaging](https://breach-to-claim.vercel.app/s/electronics-for-imaging/): claim by 2026-12-22, up to $5,000
+- [TRC Staffing Services](https://breach-to-claim.vercel.app/s/trc-staffing-services/): claim by 2026-12-22, up to $5,000
+- [Jefferson-Blount-St. Clair Mental Health Authority](https://breach-to-claim.vercel.app/s/jefferson-blount-st-clair-mental-health-authority/): claim by 2026-12-23
+- [Antigo Construction](https://breach-to-claim.vercel.app/s/antigo-construction/): claim by 2026-12-24, up to $3,000
+- [CBIZ Benefits & Insurance Services](https://breach-to-claim.vercel.app/s/cbiz-benefits-and-insurance-services/): claim by 2026-12-24, up to $5,000
+- [Arizona Labor Force](https://breach-to-claim.vercel.app/s/arizona-labor-force/): claim by 2026-12-28
+- [Chimienti & Associates](https://breach-to-claim.vercel.app/s/chimienti-and-associates/): claim by 2026-12-28, up to $5,000
+- [Grayback Forestry](https://breach-to-claim.vercel.app/s/grayback-forestry/): claim by 2026-12-28, up to $5,000
+- [Missouri Delta Medical Center](https://breach-to-claim.vercel.app/s/missouri-delta-medical-center-privacy/): claim by 2026-12-28, up to $20
+- [Prime Healthcare Services](https://breach-to-claim.vercel.app/s/prime-healthcare-services-privacy/): claim by 2026-12-28, up to $20
+- [Sherr Puttmann Akins Lamb PC](https://breach-to-claim.vercel.app/s/sherr-puttmann-akins-lamb-pc/): claim by 2026-12-28, up to $900
+- [Cardiology Associates of Mobile](https://breach-to-claim.vercel.app/s/cardiology-associates-of-mobile/): claim by 2026-12-29, up to $4,000
+- [Sirva Relocation](https://breach-to-claim.vercel.app/s/sirva-relocation/): claim by 2026-12-29, up to $4,000
+- [Bauer Built](https://breach-to-claim.vercel.app/s/bauer-built/): claim by 2026-12-31, up to $5,000
+- [Roseland Community Hospital Association](https://breach-to-claim.vercel.app/s/roseland-community-hospital-association/): claim by 2026-12-31, up to $5,000
+- [Sonic Healthcare U.S.A.](https://breach-to-claim.vercel.app/s/sonic-healthcare-u-s-a/): claim by 2027-01-04, up to $5,000
+- [Riverside Resort & Casino](https://breach-to-claim.vercel.app/s/riverside-resort-and-casino/): claim by 2027-01-04, up to $3,000
+- [Red Coats](https://breach-to-claim.vercel.app/s/red-coats/): claim by 2027-01-07, up to $3,000
+- [Washington Gastroenterology](https://breach-to-claim.vercel.app/s/washington-gastroenterology/): claim by 2027-01-10, up to $4,000
+- [Compumedics USA](https://breach-to-claim.vercel.app/s/compumedics-usa/): claim by 2027-01-12, up to $2,500
+- [New York School of Interior Design](https://breach-to-claim.vercel.app/s/new-york-school-of-interior-design/): claim by 2027-01-12, up to $5,000
+- [Lowe Engineers](https://breach-to-claim.vercel.app/s/lowe-engineers/): claim by 2027-01-13, up to $5,000
+- [Renkim Corporation](https://breach-to-claim.vercel.app/s/renkim-corporation/): claim by 2027-01-13, up to $4,000
+- [Woodloch Pines](https://breach-to-claim.vercel.app/s/woodloch-pines/): claim by 2027-01-13, up to $3,500
+- [Blue Ridge Rural Water Company](https://breach-to-claim.vercel.app/s/blue-ridge-rural-water-company/): claim by 2027-01-14, up to $2,500
+- [Case Foods](https://breach-to-claim.vercel.app/s/case-foods/): claim by 2027-01-17, up to $2,000
+- [Vida Y Salud-Health Systems](https://breach-to-claim.vercel.app/s/vida-y-salud-health-systems/): claim by 2027-01-18, up to $3,500
+- [DaVita](https://breach-to-claim.vercel.app/s/davita/): claim by 2027-01-19, up to $2,500
+- [Hampton Regional Medical Center](https://breach-to-claim.vercel.app/s/hampton-regional-medical-center/): claim by 2027-01-19, up to $5,000
+- [Kisco Senior Living](https://breach-to-claim.vercel.app/s/kisco-senior-living/): claim by 2027-01-19, up to $250
+- [Warrior Met Coal](https://breach-to-claim.vercel.app/s/warrior-met-coal/): claim by 2027-01-21, up to $2,500
+- [Columbia University](https://breach-to-claim.vercel.app/s/columbia-university/): claim by 2027-01-21, up to $8,500
+- [Warner Music Group Corp.](https://breach-to-claim.vercel.app/s/warner-music-group-corp/): claim by 2027-01-22
+- [The Cornwell Quality Tools Company](https://breach-to-claim.vercel.app/s/the-cornwell-quality-tools-company/): claim by 2027-01-25, up to $5,000
+- [Dental Intelligence](https://breach-to-claim.vercel.app/s/dental-intelligence-privacy/): claim by 2027-01-25
+- [Doctors Imaging Group](https://breach-to-claim.vercel.app/s/doctors-imaging-group/): claim by 2027-01-26, up to $2,500
+- [Academy Mortgage Corporation](https://breach-to-claim.vercel.app/s/academy-mortgage-corporation/): claim by 2027-01-27, up to $3,000
+- [The Merchant of Tennis](https://breach-to-claim.vercel.app/s/the-merchant-of-tennis/): claim by 2027-01-27, up to $2,000
+- [DotHouse Health](https://breach-to-claim.vercel.app/s/dothouse-health/): claim by 2027-01-29, up to $2,000
+- [Johnson Controls](https://breach-to-claim.vercel.app/s/johnson-controls/): claim by 2027-02-01, up to $5,000
+- [Yuma Regional Medical Center](https://breach-to-claim.vercel.app/s/yuma-regional-medical-center/): claim by 2027-02-01, up to $4,000
+- [International Coffee & Tea](https://breach-to-claim.vercel.app/s/international-coffee-and-tea/): claim by 2027-02-10, up to $5,000
+- [Covenant Health](https://breach-to-claim.vercel.app/s/covenant-health/): claim by 2027-02-11, up to $5,000
+- [AMISUB (SFH)](https://breach-to-claim.vercel.app/s/amisub-sfh-privacy/): claim by 2027-03-15, up to $16
+
+## Optional
+
+- [Full text of every settlement](https://breach-to-claim.vercel.app/llms-full.txt)

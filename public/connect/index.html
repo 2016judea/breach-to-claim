@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Breach to Claim connector for Claude and ChatGPT (MCP)</title><meta name="description" content="Add the Breach to Claim MCP server to Claude or ChatGPT: ask whether a data-breach settlement owes you money and get the deadline, the payout and the official claim site."><link rel="canonical" href="https://breach-to-claim.vercel.app/connect/">
+<meta property="og:title" content="Breach to Claim connector for Claude and ChatGPT (MCP)"><meta property="og:description" content="Add the Breach to Claim MCP server to Claude or ChatGPT: ask whether a data-breach settlement owes you money and get the deadline, the payout and the official claim site."><meta property="og:url" content="https://breach-to-claim.vercel.app/connect/"><meta property="og:type" content="website">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/style.css">
+
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script><script defer src="/_vercel/insights/script.js"></script>
+<!-- bm-posthog:begin v2 — shared across every Vercel prototype; source ~/.claude/skills/site-analytics/posthog_snippet.html. ?me=1 opts this browser out on this site (?me=0 undoes); ?me=1&next=host1,host2 walks the opt-out across sites; headless (navigator.webdriver) never loads it. -->
+<script>
+(function(w,d){var S="breach-to-claim",K="bm_me",me=false,u,p,n;
+try{u=new URLSearchParams(location.search);p=u.get("me");n=u.get("next");}catch(e){}
+try{if(p==="1"){localStorage.setItem(K,"1");}else if(p==="0"){localStorage.removeItem(K);}}catch(e){}
+if(p==="1"){d.cookie=K+"=1; path=/; max-age=63072000; SameSite=Lax";}else if(p==="0"){d.cookie=K+"=; path=/; max-age=0; SameSite=Lax";}
+try{me=localStorage.getItem(K)==="1";}catch(e){}
+if(!me&&/(?:^|; )bm_me=1/.test(d.cookie))me=true;
+if(p==="1"&&n){var h=n.split(","),f=h.shift();if(/^[a-z0-9.-]+$/.test(f)&&(f.slice(-11)===".vercel.app"||f==="brickandmortar.dev"||f==="readglean.com")){location.replace("https://"+f+"/?me=1"+(h.length?"&next="+h.join(","):""));}}
+if(navigator.webdriver===true)return;
+!function(t,e){var o,n,p,r;e.__SV||(w.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister identify setPersonProperties reset get_distinct_id get_session_id alias set_config startSessionRecording stopSessionRecording opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing captureException getFeatureFlag isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(d,w.posthog||[]);
+posthog.init("phc_yFgRGppL6H7DvhgZTQKbHdrY5oqnpLT482rrNYtLqnAx",{api_host:"https://us.i.posthog.com",person_profiles:"identified_only",persistence:"localStorage+cookie",opt_out_capturing_by_default:me});
+if(me){posthog.opt_out_capturing();}else{if(p==="0")posthog.opt_in_capturing();posthog.register({site:S});}
+})(window,document);
+</script>
+<!-- bm-posthog:end -->
+
+</head><body>
+<header class="top"><div class="wrap"><a class="brand" href="/">Breach to Claim</a><span class="indep">Independent. Not the court, the lawyers or the administrator.</span></div></header>
+<main class="wrap"><h1>Ask Claude or ChatGPT: am I owed money from a data breach?</h1>
+<p class="lede">Add Breach to Claim as a connector and your assistant can check any company against every open settlement, read you the class definition, and hand you a link to your checklist and the official claim site.</p>
+<h2>Server URL</h2><pre>https://breach-to-claim.vercel.app/mcp</pre>
+<p>Streamable HTTP. No account, no key, nothing to sign in to. Three read-only tools: <code>find_breach_settlement</code>, <code>list_open_breach_settlements</code>, <code>breach_settlement_details</code>.</p>
+<h2>Claude</h2><p>Settings → Connectors → Add custom connector → paste the URL above.</p>
+<h2>ChatGPT</h2><p>Settings → Apps &amp; Connectors → Advanced → Developer mode → Create → paste the URL above, authentication: none.</p>
+<h2>Then ask</h2><p>“I got a letter saying my data was in the DaVita breach. Am I owed anything?”</p>
+<p>The connector never asks for your Social Security number, the code on your letter, or your name, and it never files a claim. <a href="/privacy/">Privacy</a>.</p></main>
+<footer><div class="wrap">
+<p>Every fact here is read from the settlement's official, court-authorized website, linked on each page with the date it was read. Not legal advice. We never ask for your Social Security number or the code on your notice, and we never file a claim: you file and sign it on the official site.</p>
+<p><a href="/">All open settlements</a> · <a href="/connect/">Use it in Claude or ChatGPT</a> · <a href="/privacy/">Privacy</a> · <a href="https://github.com/2016judea/breach-to-claim">Source</a></p>
+</div></footer>
+<script>(function(){var u=new URLSearchParams(location.search),src=u.get("src");if(src&&window.posthog)posthog.register({src:src});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-claim]");if(!a)return;var p={slug:a.getAttribute("data-claim"),where:a.getAttribute("data-where")||"",src:src||""};
+try{window.posthog&&posthog.capture("claim_site_click",p)}catch(x){}try{window.va&&va("event",{name:"claim_site_click",data:p})}catch(x){}});})();</script>
+</body></html>

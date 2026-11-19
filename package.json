@@ -1,0 +1,17 @@
+{
+  "name": "breach-to-claim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open data-breach class-action settlements: deadline, payout, who qualifies and the official claim site. MCP server at /mcp.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "1.11.0",
+    "playwright": "1.65.0"
+  }
+}

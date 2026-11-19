@@ -1,0 +1,37 @@
+name: refresh
+# Daily: re-read every official settlement site, rebuild, commit, ping IndexNow.
+# Commits are authored as the repo owner so the Vercel git integration deploys them.
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/refresh.mjs
+        env:
+          # Optional. Without it new settlements wait as "new, not read yet"; with it at most
+          # MAX_EXTRACT sites a day go to the model (about $0.06 each).
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_EXTRACT: "5"
+      - run: npm test
+      - name: commit and push
+        run: |
+          git config user.name "Aidan Jude"
+          git config user.email aidanjude2016@gmail.com
+          git add data/candidates.json data/settlements.json data/notices.json public
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "Daily refresh $(date -u +%F): official settlement sites re-read"
+          git push
+      - run: node scripts/indexnow.mjs
