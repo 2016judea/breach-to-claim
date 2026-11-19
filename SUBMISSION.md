@@ -69,9 +69,59 @@ Negative:
 - Which data breach settlements close this week?
 - Which breach settlements pay without receipts?
 
-## What needs Aidan (clicks only)
+## What needs Aidan (items 1-3 filed 2026-11-19, see below; 4-5 still his)
 1. **Claude directory**: submit the connector form with the fields above (Anthropic's MCP directory submission). Not pressed.
 2. **ChatGPT**: platform.openai.com → Apps → new app, ZIP upload per heistclips' `SUBMISSION.md`, signed in as him. Not pressed.
 3. **MCP Registry** (`io.github.2016judea/breach-to-claim`): `mcp-publisher login github` then `mcp-publisher publish` with a `server.json` like heistclips'. Not pressed.
 4. **Optional, costs money:** add the `ANTHROPIC_API_KEY` repo secret so the daily run reads new settlements (at most 5 sites a day at ~$0.06 each, so at most ~$9 a month; new settlements open at roughly one a day). Without it the run re-checks every stored deadline against the live official site for free, and new settlements wait.
 5. **Optional, costs money:** a domain.
+
+## Submitted 2026-11-19
+
+Filed by Claude in Aidan's own Chrome (JavaScript run by process id into his signed-in tabs). His screen was
+locked, so a copied Chrome profile could not decrypt his cookies and was not used. Nothing was paid, nothing
+was sent to a person, nothing was published, and no repo secret was added (the `ANTHROPIC_API_KEY` and domain
+items below stay his). Each status was read back off the portal after filing.
+
+| Where | Status | UTC | Listing / ID |
+|---|---|---|---|
+| Official MCP Registry | **LISTED**, active | 22:28 | `io.github.2016judea/breach-to-claim` 0.1.0 |
+| Claude Connectors Directory | **READY TO PUBLISH** (read 23:45) | 22:50 | claude.ai/directory/manage/breach-to-claim · slug `breach-to-claim` (permanent) |
+| ChatGPT plugin directory | **0.1.0 IN REVIEW** | 23:44 | `plugin_asdk_app_6aff7e98ece8819189a309263c7a402f` |
+
+**What needs Aidan**
+- **Claude:** it already reads "Ready to publish": click **Publish** at claude.ai/directory/manage/breach-to-claim. Approval does not publish it.
+- **ChatGPT:** when the approval email comes, click **Publish** at
+  platform.openai.com/plugins/manage/plugin_asdk_app_6aff7e98ece8819189a309263c7a402f. Leave
+  `public/.well-known/openai-apps-challenge` in place: OpenAI re-checks it.
+- Items 4 and 5 of the list above (the API-key secret, a domain) are unchanged and still his call.
+
+**Official MCP Registry.** No device code needed. `server.json` plus `.github/workflows/mcp-registry.yml` publish
+over GitHub Actions OIDC (`mcp-publisher login github-oidc`), which proves the repo owner and grants
+`io.github.2016judea/*`. It runs when `server.json` changes on `main`; bump `version` there to republish.
+
+**Claude, what was filed.** Custom connector "Breach to Claim" added to his Claude (Settings → Connectors). Name,
+one-liner and description verbatim from this kit. Categories: Legal, Financial Services. Author Brick and Mortar AI
+LLC (https://breach-to-claim.vercel.app/). Docs `/connect/`, support the GitHub issues URL, privacy `/privacy/`,
+custom icon `/icon.png`. Use cases: test cases 1, 2 and 3. Prerequisites: none. Read only. Company Brick and Mortar
+AI LLC, https://brickandmortar.dev, Aidan Jude, Founder. Auth none (detected). Data handling "We own the API" (our
+daily read of each official settlement site), no health data, no sponsored content. All seven compliance boxes ticked.
+- **One slip in the private reviewer note:** it says the Columbia University settlement needs the notice code. The
+  live server says `needs_code_from_notice: false`. If a reviewer asks, the server is right.
+- **Server change made for this filing (commit 78bb2d0, deployed):** `find_breach_settlement`'s description said
+  "Never ask for or pass on a Social Security number...". The compliance step attests that tool descriptions hold
+  no instructions about model behavior, so it now reads "It takes the company name only: no Social Security
+  number, notice ID, claim ID or name is needed or taken." The instruction stays in the server `instructions`.
+
+**ChatGPT, what was filed.** Plugin `breach-to-claim` 0.1.0, publisher **Business — Brick and Mortar AI LLC**, built
+by the new `scripts/build_chatgpt_plugin.py` (pattern: appeal-draft's; tools and annotations read off `api/mcp.js`;
+5 positive and 3 negative test cases; category Finance; support is the GitHub issues URL). Bump `VERSION` for every upload.
+- **Domain:** token in `public/.well-known/openai-apps-challenge` (commit 592e897, deployed by the git push);
+  "Domain verified". MCP connected, no auth, 3 tools, "No findings in the latest MCP scan".
+- **Findings:** one non-blocking metadata finding ("Review the plugin's privacy policy against the submission guidelines"); the private review note points at the connector section of `/privacy/` and says the settlement list moves daily, so exact counts in the test cases will drift.
+- **Demo:** https://cf546sdmyewh8fpm.public.blob.vercel-storage.com/demo/breach-to-claim-chatgpt-review.mp4 (Vercel
+  Blob, heistclips store). 2 min 58 s, 1536×742, the 8 test cases each in a fresh developer-mode chat with the plugin
+  attached by `@Breach to Claim`. Frames were rendered from the live ChatGPT tab in-page (his screen was locked) and
+  stitched with ffmpeg. This added a developer-mode plugin "Breach to Claim" to his ChatGPT. Demo URL and release
+  notes were entered in the portal, not the ZIP.
+- **Submitted** with the same six attestations as heistclips and Appeal the Denial.
