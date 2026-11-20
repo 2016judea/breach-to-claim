@@ -1,17 +1,14 @@
 # Breach to Claim
 
-> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-19T22:21:42.931Z.
+> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-20T19:13:50.901Z.
 
-- 82 settlements open for claims; 31 close within 30 days, 10 within 7.
+- 79 settlements open for claims; 28 close within 30 days, 8 within 7.
 - MCP server (Streamable HTTP, no auth): https://breach-to-claim.vercel.app/mcp — tools find_breach_settlement, list_open_breach_settlements, breach_settlement_details.
 - Full list as JSON: https://breach-to-claim.vercel.app/settlements.json
 - Each settlement page: https://breach-to-claim.vercel.app/s/<slug>/
 
 ## Settlements
 
-- [Carter Credit Union](https://breach-to-claim.vercel.app/s/carter-credit-union/): claim by 2026-11-19, up to $2,500
-- [Mental Health Association](https://breach-to-claim.vercel.app/s/mental-health-association/): claim by 2026-11-19, up to $5,000
-- [Mortgage Investors Group](https://breach-to-claim.vercel.app/s/mortgage-investors-group/): claim by 2026-11-19, up to $2,000
 - [La Jolla Group](https://breach-to-claim.vercel.app/s/la-jolla-group/): claim by 2026-11-23, up to $2,000
 - [Vasindas’ Around the Clock Care](https://breach-to-claim.vercel.app/s/vasindas-around-the-clock-care/): claim by 2026-11-23, up to $2,500
 - [Laboratory Services Cooperative](https://breach-to-claim.vercel.app/s/laboratory-services-cooperative/): claim by 2026-11-24
