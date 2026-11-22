@@ -86,11 +86,11 @@ items below stay his). Each status was read back off the portal after filing.
 | Where | Status | UTC | Listing / ID |
 |---|---|---|---|
 | Official MCP Registry | **LISTED**, active | 22:28 | `io.github.2016judea/breach-to-claim` 0.1.0 |
-| Claude Connectors Directory | **READY TO PUBLISH** (read 23:45) | 22:50 | claude.ai/directory/manage/breach-to-claim · slug `breach-to-claim` (permanent) |
+| Claude Connectors Directory | **PUBLISHED**, live at claude.ai/directory/breach-to-claim (read off claude.ai/directory/manage 2026-11-22 14:55 UTC; approval email 2026-11-19 22:52) | 22:50 filed | claude.ai/directory/manage/breach-to-claim · slug `breach-to-claim` (permanent) |
 | ChatGPT plugin directory | **0.1.0 IN REVIEW** | 23:44 | `plugin_asdk_app_6aff7e98ece8819189a309263c7a402f` |
 
 **What needs Aidan**
-- **Claude:** it already reads "Ready to publish": click **Publish** at claude.ai/directory/manage/breach-to-claim. Approval does not publish it.
+- ~~**Claude:** click **Publish** at claude.ai/directory/manage/breach-to-claim.~~ Done: Published by 2026-11-22 (Submitted, Approved, Published all ticked on the portal).
 - **ChatGPT:** when the approval email comes, click **Publish** at
   platform.openai.com/plugins/manage/plugin_asdk_app_6aff7e98ece8819189a309263c7a402f. Leave
   `public/.well-known/openai-apps-challenge` in place: OpenAI re-checks it.
