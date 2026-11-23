@@ -87,8 +87,23 @@ test("checklist follows the two answers", () => {
 test("JSON-RPC: initialize, tools/list, tools/call", async () => {
   const meta = { ip: "t", ua: "test", client: "script", test: true };
   assert.equal((await handleOne({ id: 1, method: "initialize", params: {} }, meta)).result.serverInfo.name, "breach-to-claim");
-  assert.equal((await handleOne({ id: 2, method: "tools/list" }, meta)).result.tools.length, 3);
+  assert.equal((await handleOne({ id: 2, method: "tools/list" }, meta)).result.tools.length, 12);
   const r = await handleOne({ id: 3, method: "tools/call", params: { name: "list_open_breach_settlements", arguments: { limit: 3 } } }, meta);
   assert.ok(r.result.structuredContent.settlements.length <= 3);
   for (const t of TOOLS) for (const k of ["readOnlyHint", "destructiveHint", "openWorldHint", "idempotentHint"]) assert.equal(typeof t.annotations[k], "boolean");
+});
+
+test("theme doors answer in the user's words", async () => {
+  const meta = { ip: "t", ua: "test", client: "script", test: true };
+  for (const t of TOOLS) { assert.ok(t.title && t.annotations.title, t.name); assert.doesNotMatch(t.description, /^(Use|Call|Always) /, t.name); }
+  const call = async (name, args) => (await handleOne({ id: 9, method: "tools/call", params: { name, arguments: args } }, meta)).result;
+  const soon = await call("settlements_closing_soon", { within_days: 400 });
+  assert.match(soon.structuredContent.answer, /open settlements? close within 400 days/);
+  const big = await call("biggest_breach_settlement_payouts", { limit: 5 });
+  const caps = big.structuredContent.settlements.map((s) => Number(s.most_cash.replace(/[$,]/g, "")));
+  assert.deepEqual(caps, [...caps].sort((a, b) => b - a));
+  const miss = await call("settlement_claim_deadline", { company: "Zzyzx Nonexistent Holdings" });
+  assert.match(miss.structuredContent.answer, /^No settlement for/);
+  assert.equal((await call("how_to_file_breach_claim", {})).isError, true);
+  assert.equal((await call("no_such_tool", {})).isError, true);
 });

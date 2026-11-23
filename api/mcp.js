@@ -50,7 +50,47 @@ export const TOOLS = [
   },
 ];
 
-export const INSTRUCTIONS = "Breach to Claim answers 'am I owed money from the X data breach, and how do I claim?' Use find_breach_settlement with the company on the person's breach letter; list_open_breach_settlements for what is open now or closing soon; breach_settlement_details for one settlement. Quote deadlines and amounts exactly as returned, read the class definition back to the person rather than deciding for them, and always give the page link and the official claim site. Never ask for a Social Security number, notice ID, claim ID or name: none is needed, and claims are filed and signed by the person on the official site. Not legal advice.";
+// Theme doors: one named tool per kind of question people bring, each a thin wrapper over the
+// three tools above (QUESTIONS.md; ~/.claude/CLAUDE.md "Every question theme gets a tool",
+// 2026-11-22). Claude picks tools by name and description, so a named door gets called where
+// a filter on a generic tool does not.
+const COMPANY = { type: "string", description: "The company or organization named on the letter or in the news. Nothing else about the person." };
+const door = (name, title, short, description, properties, required = []) => ({
+  name, title, description, inputSchema: { type: "object", properties, ...(required.length ? { required } : {}), additionalProperties: false },
+  annotations: { title: short, ...ANN },
+});
+export const DOOR_TOOLS = [
+  door("settlements_closing_soon", "Data-breach settlements closing soon: last chance to claim", "Settlements closing soon",
+    "Open class-action data-breach and privacy settlements whose claim deadline falls within the next N days (default 14), soonest first: company, deadline, days left, most cash, whether receipts are needed, official claim site and page link.\n\nExample questions:\n- \"Which data breach settlements close this week?\"\n- \"What settlements are about to expire?\"\n- \"Last chance class action claims this month\"",
+    { within_days: { type: "integer", minimum: 1, maximum: 400, description: "Deadline within this many days (default 14)" }, kind: { type: "string", enum: ["data_breach", "privacy_tracking", "all"], description: "Default all" } }),
+  door("breach_settlements_no_proof_needed", "Data-breach settlements that pay cash with no receipts or proof", "No-proof settlements",
+    "Open settlements with a cash option that needs no receipts or documents, soonest deadline first, with the most cash, the official claim site and the page link.\n\nExample questions:\n- \"Data breach settlements with no proof required\"\n- \"Settlements I can claim without receipts\"\n- \"Easy class action money I can claim now\"",
+    { closing_within_days: { type: "integer", minimum: 1, maximum: 400, description: "Optional: only deadlines within this many days" }, limit: { type: "integer", minimum: 1, maximum: 100, description: "How many (default 20)" } }),
+  door("tracking_pixel_privacy_settlements", "Privacy settlements over website tracking pixels (Meta Pixel, video-viewing data)", "Tracking-pixel settlements",
+    "Open class-action privacy settlements where a website or app shared visitors' data with advertisers through tracking pixels or similar code, soonest deadline first, with what each pays and the official claim site.\n\nExample questions:\n- \"Meta Pixel settlements I can claim\"\n- \"Privacy class actions for hospital website tracking\"\n- \"Settlements for websites that shared my data with Facebook\"",
+    { limit: { type: "integer", minimum: 1, maximum: 100, description: "How many (default 20)" } }),
+  door("biggest_breach_settlement_payouts", "Open data-breach settlements that pay the most", "Biggest payouts",
+    "Open settlements ranked by the most cash one person can claim (the cap stated on the official site), with the total fund and class size where the site states them. A cap is a maximum per claimant, not what everyone receives.\n\nExample questions:\n- \"Which data breach settlement pays the most?\"\n- \"Biggest class action payouts open right now\"\n- \"Highest paying settlements I can still claim\"",
+    { kind: { type: "string", enum: ["data_breach", "privacy_tracking", "all"], description: "Default all" }, limit: { type: "integer", minimum: 1, maximum: 100, description: "How many (default 10)" } }),
+  door("is_this_settlement_letter_real", "Is this data-breach settlement letter or email real?", "Is this settlement real?",
+    "Checks a company's name against court-authorized settlements read off their official websites and against breach notices filed with the California and Washington attorneys general. Returns whether a matching settlement is open, its official web address and administrator, the case and court, and the breach notices on record, so the person can compare the address on their letter or email with the official one.\n\nExample questions:\n- \"I got an email about a Columbia University settlement, is it legit?\"\n- \"Is this class action letter a scam?\"\n- \"Is the DaVita settlement website real?\"",
+    { company: COMPANY }, ["company"]),
+  door("settlement_claim_deadline", "When is the deadline to file a claim in the X settlement?", "Claim deadline",
+    "The claim deadline and days left for a company's data-breach or privacy settlement, plus the opt-out and objection deadlines and the final approval hearing date, each as read off the official site.\n\nExample questions:\n- \"When is the deadline for the Columbia settlement?\"\n- \"Is it too late to file the DaVita claim?\"\n- \"How many days left to claim the La Jolla Group settlement?\"",
+    { company: COMPANY }, ["company"]),
+  door("how_much_will_i_get_from_settlement", "How much money will I get from the X data-breach settlement?", "How much will I get",
+    "What a company's settlement pays one person: each benefit with its stated cap and whether documents are needed, in the official site's own words, plus the total fund and class size where stated. Caps are maximums; the official wording shows whether payments can be reduced.\n\nExample questions:\n- \"How much will I get from the Columbia data breach settlement?\"\n- \"What does the DaVita settlement pay?\"\n- \"Is the settlement payout worth claiming?\"",
+    { company: COMPANY, had_out_of_pocket_losses: { type: "boolean", description: "Optional: true if they paid money or lost time because of the breach" } }, ["company"]),
+  door("how_to_file_breach_claim", "How do I file a claim for the X data-breach settlement?", "How to file a claim",
+    "The person's claim steps for a company's settlement: whether the code on the notice letter is needed, which benefit fits their answers, what to gather, the deadline, and the official claim form link. The person files and signs on the official site.\n\nExample questions:\n- \"How do I file a claim for the Columbia University settlement?\"\n- \"I lost my notice letter, can I still claim?\"\n- \"What do I need to claim the DaVita settlement?\"",
+    { company: COMPANY, got_notice_letter: { type: "boolean", description: "Optional: true if they got a notice letter or email" }, had_out_of_pocket_losses: { type: "boolean", description: "Optional: true if they paid money or lost time because of the breach" } }, ["company"]),
+  door("did_company_have_data_breach", "Did X have a data breach? Breach notices on public record", "Did X have a breach?",
+    "Breach notices a company filed with the California and Washington attorneys general since 2024 (date reported, breach dates, residents affected where stated, data exposed, source link), plus any open or closed settlement over it.\n\nExample questions:\n- \"Did Kaiser have a data breach?\"\n- \"Was my bank hacked?\"\n- \"Has DaVita reported a breach?\"",
+    { company: COMPANY }, ["company"]),
+];
+TOOLS.push(...DOOR_TOOLS);
+
+export const INSTRUCTIONS = "Breach to Claim answers 'am I owed money from the X data breach, and how do I claim?' Use find_breach_settlement with the company on the person's breach letter; list_open_breach_settlements for what is open now or closing soon; breach_settlement_details for one settlement. Shortcuts for common questions: settlements_closing_soon, breach_settlements_no_proof_needed, tracking_pixel_privacy_settlements, biggest_breach_settlement_payouts, is_this_settlement_letter_real, settlement_claim_deadline, how_much_will_i_get_from_settlement, how_to_file_breach_claim, did_company_have_data_breach. Quote deadlines and amounts exactly as returned, read the class definition back to the person rather than deciding for them, and always give the page link and the official claim site. Never ask for a Social Security number, notice ID, claim ID or name: none is needed, and claims are filed and signed by the person on the official site. Not legal advice.";
 
 export function tag(url) {
   url = String(url);
@@ -139,8 +179,104 @@ export function callTool(name, args = {}, today = new Date().toISOString().slice
     if (!s) return { out: { ok: false, error: "No settlement with that slug. Use find_breach_settlement with the company name." }, log: { err: "no_slug" }, isError: true };
     return { out: { as_of: data.generated_at, ...detail(s, args, today), not_legal_advice: NOT_ADVICE }, log: { matches: 1 } };
   }
+  if (Object.hasOwn(DOORS, name)) return DOORS[name](args, today, data);
   return { out: { ok: false, error: "Unknown tool " + name }, log: { err: "unknown_tool" }, isError: true };
 }
+
+// Door handlers. Each re-enters callTool or reads the same records, so the answer matches the
+// three main tools word for word.
+function bestFor(company, data, today) {
+  const hits = matchSettlements(company, data);
+  return hits.find((s) => statusOf(s, today).status !== "claim deadline passed") || hits[0] || null;
+}
+const listDoor = (args, today, extra) => {
+  const r = callTool("list_open_breach_settlements", { ...extra, limit: args.limit }, today);
+  return r;
+};
+const noMatch = (company, data, today) => ({
+  out: { as_of: data.generated_at, answer: `No settlement for "${company}" among the ${openSettlements(data, today).length} open ones we track (checked ${data.generated_at.slice(0, 10)}). Check the exact name on the letter; a settlement can be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`, not_legal_advice: NOT_ADVICE },
+  log: { matches: 0 },
+});
+const needCompany = { out: { ok: false, error: "Pass the company named on the letter as company." }, log: { err: "no_company" }, isError: true };
+
+const DOORS = {
+  settlements_closing_soon(args, today) {
+    const days = args.within_days || 14;
+    const r = listDoor(args, today, { closing_within_days: days, kind: args.kind });
+    r.out.answer = `${r.out.total} open settlement${r.out.total === 1 ? "" : "s"} close within ${days} days.`;
+    return r;
+  },
+  breach_settlements_no_proof_needed(args, today) {
+    const r = listDoor(args, today, { no_documents_option: true, closing_within_days: args.closing_within_days });
+    r.out.answer = `${r.out.total} of ${r.out.summary.open} open settlements have a cash option that needs no receipts. Each still asks the person to confirm they are in the class, on the official site.`;
+    return r;
+  },
+  tracking_pixel_privacy_settlements(args, today) {
+    const r = listDoor(args, today, { kind: "privacy_tracking" });
+    r.out.answer = `${r.out.total} open privacy settlements over tracking pixels or similar data sharing.`;
+    return r;
+  },
+  biggest_breach_settlement_payouts(args, today, data) {
+    let list = openSettlements(data, today).filter((s) => s.max_cash_usd);
+    if (args.kind && args.kind !== "all") list = list.filter((s) => s.kind === args.kind);
+    list.sort((a, b) => b.max_cash_usd - a.max_cash_usd);
+    const lim = Math.min(100, args.limit || 10);
+    const rows = list.slice(0, lim).map((s) => ({ ...brief(s, today), fund_total: money(s.fund_total_usd), class_size: s.class_size || null }));
+    return { out: { as_of: data.generated_at, answer: rows.length ? `${rows[0].company} pays the most to one person: up to ${rows[0].most_cash}. Caps are per claimant maximums stated on the official site, not what everyone receives.` : "No open settlement states a cash cap.", ranked_by: "most cash one person can claim", total_with_a_stated_cap: list.length, settlements: rows, all_of_them: tag(SITE + "/"), not_legal_advice: NOT_ADVICE }, log: { matches: list.length } };
+  },
+  is_this_settlement_letter_real(args, today, data) {
+    const company = String(args.company || "").trim();
+    if (!company) return needCompany;
+    const r = callTool("find_breach_settlement", { company }, today);
+    const m = r.out.matches[0];
+    if (m) {
+      r.out.answer = `Yes, a court-authorized settlement for ${m.company} is open (${m.case_name || "case named on the official site"}${m.court ? ", " + m.court : ""}). Its official website is ${m.official_site}${m.administrator ? ", run by the administrator " + m.administrator : ""}. Compare that address with the one on the letter or email: a real notice points there. Claims never ask for a bank password, and only the official site takes them.`;
+      r.out.official_site = m.official_site;
+    } else if (r.out.deadline_passed.length) {
+      r.out.answer = `A settlement for ${r.out.deadline_passed[0].company} existed, but its claim deadline has passed (${r.out.deadline_passed[0].claim_deadline}). Its official site was ${r.out.deadline_passed[0].official_site}. A letter asking for a claim now deserves a close look; check that address.`;
+    } else {
+      r.out.answer = `No court-authorized settlement for "${company}" among the ${r.out.open_settlements_tracked} open ones we track. That does not prove a letter is fake: we may not have read that settlement yet. ${r.out.breach_notices_on_record.length ? "The breach itself is on public record (below)." : "No breach notice under that name is on the California or Washington AG record since 2024."} Real settlement sites are named in the court's notice; search the case, never click a link to check it.`;
+    }
+    return r;
+  },
+  settlement_claim_deadline(args, today, data) {
+    const company = String(args.company || "").trim();
+    if (!company) return needCompany;
+    const s = bestFor(company, data, today);
+    if (!s) return noMatch(company, data, today);
+    const d = detail(s, {}, today);
+    const answer = d.status === "open" ? `The claim deadline for ${d.company} is ${d.claim_deadline}: ${d.days_left} day${d.days_left === 1 ? "" : "s"} left.` : d.status === "claim deadline passed" ? `The claim deadline for ${d.company} passed on ${d.claim_deadline}.` : `The official site for ${d.company} does not state a claim deadline we could read: ${d.official_site}`;
+    return { out: { as_of: data.generated_at, answer, company: d.company, status: d.status, claim_deadline: d.claim_deadline, days_left: d.days_left, deadlines: d.deadlines, official_site: d.official_site, claim_form: d.claim_form, page: d.page, not_legal_advice: NOT_ADVICE }, log: { matches: 1 } };
+  },
+  how_much_will_i_get_from_settlement(args, today, data) {
+    const company = String(args.company || "").trim();
+    if (!company) return needCompany;
+    const s = bestFor(company, data, today);
+    if (!s) return noMatch(company, data, today);
+    const d = detail(s, args, today);
+    const line = (b) => `${b.what || b.type}${b.up_to && !String(b.what || "").includes(b.up_to) ? " Up to " + b.up_to + "." : ""}${b.needs_documents ? " (documents needed)" : " (no documents needed)"}`;
+    const money_ = d.benefits.filter((b) => !["credit_monitoring", "business_changes"].includes(b.type));
+    const mon = d.benefits.find((b) => b.type === "credit_monitoring");
+    const answer = `${d.company}: ` + (money_.length ? money_.map(line).join(" Or: ") : "the official site lists no cash benefit we could read.") + (mon ? ` Credit monitoring: ${mon.what}` : "") + (d.fund_total ? ` Total fund: ${d.fund_total}${d.class_size ? " for about " + d.class_size + " people" : ""}.` : "") + " Caps are maximums; the official wording below says whether payments can be reduced.";
+    return { out: { as_of: data.generated_at, answer, company: d.company, status: d.status, claim_deadline: d.claim_deadline, most_cash: d.most_cash, benefits: d.benefits, fund_total: d.fund_total, class_size: d.class_size, who_is_in_the_class: d.who_is_in_the_class, official_site: d.official_site, page: d.page, not_legal_advice: NOT_ADVICE }, log: { matches: 1 } };
+  },
+  how_to_file_breach_claim(args, today, data) {
+    const company = String(args.company || "").trim();
+    if (!company) return needCompany;
+    const s = bestFor(company, data, today);
+    if (!s) return noMatch(company, data, today);
+    const d = detail(s, args, today);
+    return { out: { as_of: data.generated_at, answer: `How to claim the ${d.company} settlement:`, steps: d.your_checklist, needs_code_from_notice: d.needs_code_from_notice, notice_code_quote: d.notice_code_quote, administrator_contact: d.administrator_contact, claim_deadline: d.claim_deadline, days_left: d.days_left, claim_form: d.claim_form, official_site: d.official_site, page: d.page, not_legal_advice: NOT_ADVICE }, log: { matches: 1 } };
+  },
+  did_company_have_data_breach(args, today, data) {
+    const company = String(args.company || "").trim();
+    if (!company) return needCompany;
+    const r = callTool("find_breach_settlement", { company }, today);
+    const n = r.out.breach_notices_on_record, m = r.out.matches, c = r.out.deadline_passed;
+    r.out.answer = (n.length ? `Yes: ${n.length} breach notice${n.length > 1 ? "s" : ""} from "${company}" on the California or Washington AG record, latest reported ${n.map((x) => x.reported_at).sort().slice(-1)[0]}.` : `No breach notice under "${company}" on the California or Washington AG record since 2024. Other states keep their own lists, and the exact legal name matters.`) + (m.length ? ` ${m.length} open settlement${m.length > 1 ? "s match" : " matches"}: see matches.` : c.length ? ` A settlement existed but its deadline passed.` : " No open settlement matches.");
+    return r;
+  },
+};
 
 const clientOf = (ua) => (/claude/i.test(ua) ? "claude" : /openai|chatgpt/i.test(ua) ? "chatgpt" : /grok|xai/i.test(ua) ? "grok" : /cursor/i.test(ua) ? "cursor" : /node|undici|python|curl/i.test(ua) ? "script" : "other");
 const hashOf = (s) => crypto.createHash("sha256").update(s).digest("hex").slice(0, 16);
@@ -170,7 +306,8 @@ export async function handleOne(msg, meta) {
     let r;
     try { r = callTool(tool, (params && params.arguments) || {}); }
     catch (e) { r = { out: { ok: false, error: "Error: " + e.message }, log: { err: "exception" }, isError: true }; }
-    await logCall(TOOLS.some((x) => x.name === tool) ? tool : "unknown", !r.isError, Date.now() - t0, meta, r.log || {});
+    const known = TOOLS.some((x) => x.name === tool);
+    await logCall(known ? tool : "unknown", !r.isError, Date.now() - t0, meta, { ...(r.log || {}), ...(known ? {} : { attempted: tool.replace(/[^A-Za-z0-9_.-]/g, "").slice(0, 60) }) });
     return ok({ ...text(r.out), ...(r.isError ? { isError: true } : {}) });
   }
   if (method === "resources/list") return ok({ resources: [] });
