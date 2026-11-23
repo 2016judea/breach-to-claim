@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:38:43.208Z",
+ "generated_at": "2026-11-23T22:47:04.268Z",
  "method": "https://breach-to-claim.vercel.app/llms.txt",
  "settlements": [
   {
@@ -83,7 +83,7 @@
     "https://ljgdatasettlement.com/frequently-asked-questions/",
     "https://ljgdatasettlement.com/important-deadlines/"
    ],
-   "verified_at": "2026-11-22T18:36:52.046Z",
+   "verified_at": "2026-11-23T22:45:19.137Z",
    "first_seen": "2026-11-19",
    "name": "La Jolla Group"
   },
@@ -168,7 +168,7 @@
     "https://vasindasdatasettlement.com/faq/",
     "https://vasindasdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:18.298Z",
+   "verified_at": "2026-11-23T22:46:40.602Z",
    "first_seen": "2026-11-19",
    "name": "Vasindas’ Around the Clock Care"
   },
@@ -250,7 +250,7 @@
     "https://lscdatasettlement.com/",
     "https://lscdatasettlement.com/faqs"
    ],
-   "verified_at": "2026-11-22T18:36:57.262Z",
+   "verified_at": "2026-11-23T22:45:24.245Z",
    "first_seen": "2026-11-19",
    "name": "Laboratory Services Cooperative"
   },
@@ -345,7 +345,7 @@
     "https://flbdatasettlement.com/faq/",
     "https://flbdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:45.290Z",
+   "verified_at": "2026-11-23T22:44:14.353Z",
    "first_seen": "2026-11-19",
    "name": "Fujifilm Diosynth Biotechnologies U.S.A."
   },
@@ -423,7 +423,7 @@
     "https://www.skin360bipasettlement.com/",
     "https://www.skin360bipasettlement.com/faqs/"
    ],
-   "verified_at": "2026-11-22T18:37:51.576Z",
+   "verified_at": "2026-11-23T22:46:14.892Z",
    "first_seen": "2026-11-19",
    "name": "Johnson & Johnson Consumer"
   },
@@ -493,7 +493,7 @@
     "https://bekdataincidentsettlement.com/",
     "https://bekdataincidentsettlement.com/faqs"
    ],
-   "verified_at": "2026-11-22T18:34:05.633Z",
+   "verified_at": "2026-11-23T22:42:38.772Z",
    "first_seen": "2026-11-19",
    "name": "Ben E. Keith Company"
   },
@@ -577,7 +577,7 @@
     "https://cpapdataincidentsettlement.com/faq/",
     "https://cpapdataincidentsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:02.233Z",
+   "verified_at": "2026-11-23T22:43:33.053Z",
    "first_seen": "2026-11-19",
    "name": "CPAP Medical Supplies and Services"
   },
@@ -662,7 +662,7 @@
     "https://finastradatasettlement.com/faq/",
     "https://finastradatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:42.461Z",
+   "verified_at": "2026-11-23T22:44:11.595Z",
    "first_seen": "2026-11-19",
    "name": "Finastra Technology"
   },
@@ -745,7 +745,7 @@
    "verified_at": "2026-11-19T22:02:59.877Z",
    "first_seen": "2026-11-19",
    "name": "Hire Velocity",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "jack-s-family-restaurants-lp",
@@ -837,7 +837,7 @@
     "https://jacksdatabreachsettlement.com/faq/",
     "https://jacksdatabreachsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:29.492Z",
+   "verified_at": "2026-11-23T22:44:56.605Z",
    "first_seen": "2026-11-19",
    "name": "Jack’s Family Restaurants, LP"
   },
@@ -908,7 +908,7 @@
    "verified_at": "2026-11-19T22:02:21.347Z",
    "first_seen": "2026-11-19",
    "name": "Evernorth Health",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "geotek",
@@ -988,7 +988,7 @@
     "https://geotekcyberincident.com/faq/",
     "https://geotekcyberincident.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:48.491Z",
+   "verified_at": "2026-11-23T22:44:17.218Z",
    "first_seen": "2026-11-19",
    "name": "GeoTek"
   },
@@ -1080,7 +1080,7 @@
     "https://holtgroupdatasettlement.com/faq/",
     "https://holtgroupdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:59.549Z",
+   "verified_at": "2026-11-23T22:44:27.805Z",
    "first_seen": "2026-11-19",
    "name": "B.D. Holt Co."
   },
@@ -1175,7 +1175,7 @@
     "https://steelwarehousedatasettlement.com/faq/",
     "https://steelwarehousedatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:57.845Z",
+   "verified_at": "2026-11-23T22:46:20.560Z",
    "first_seen": "2026-11-19",
    "name": "Steel Warehouse Company"
   },
@@ -1235,7 +1235,7 @@
     "https://carruthsettlement.com/",
     "https://carruthsettlement.com/faqs"
    ],
-   "verified_at": "2026-11-22T18:34:28.069Z",
+   "verified_at": "2026-11-23T22:43:00.270Z",
    "first_seen": "2026-11-19",
    "name": "Seattle Public Schools"
   },
@@ -1331,7 +1331,7 @@
     "https://inotivdatabreachsettlement.com/faq/",
     "https://inotivdatabreachsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:13.622Z",
+   "verified_at": "2026-11-23T22:44:41.057Z",
    "first_seen": "2026-11-19",
    "name": "Inotiv"
   },
@@ -1418,7 +1418,7 @@
     "https://institutehrdatasettlement.com/faq/",
     "https://institutehrdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:16.436Z",
+   "verified_at": "2026-11-23T22:44:44.021Z",
    "first_seen": "2026-11-19",
    "name": "Institute for Human Resources and Services"
   },
@@ -1514,7 +1514,7 @@
     "https://safefleetdatasettlement.com/faq/",
     "https://safefleetdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:42.109Z",
+   "verified_at": "2026-11-23T22:46:06.241Z",
    "first_seen": "2026-11-19",
    "name": "Safe Fleet Holdings"
   },
@@ -1585,7 +1585,7 @@
    "verified_at": "2026-11-19T22:02:31.663Z",
    "first_seen": "2026-11-19",
    "name": "Fertility Centers of Illinois",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "its-technologies-and-logistics-privacy",
@@ -1653,7 +1653,7 @@
     "https://itsbipasettlement.com/faq/",
     "https://itsbipasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:26.477Z",
+   "verified_at": "2026-11-23T22:44:53.690Z",
    "first_seen": "2026-11-19",
    "name": "ITS Technologies & Logistics"
   },
@@ -1724,7 +1724,7 @@
     "https://uscarcadiahospitalsettlement.com/faq/",
     "https://uscarcadiahospitalsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:12.323Z",
+   "verified_at": "2026-11-23T22:46:34.954Z",
    "first_seen": "2026-11-19",
    "name": "USC Arcadia Hospital"
   },
@@ -1803,7 +1803,7 @@
     "https://www.wmhdatasettlement.com/",
     "https://www.wmhdatasettlement.com/Dates"
    ],
-   "verified_at": "2026-11-22T18:38:33.791Z",
+   "verified_at": "2026-11-23T22:46:55.341Z",
    "first_seen": "2026-11-19",
    "name": "Wayne Memorial Hospital Auxiliary"
   },
@@ -1896,7 +1896,7 @@
     "https://bhsettlement.com/faq/",
     "https://bhsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:11.886Z",
+   "verified_at": "2026-11-23T22:42:44.740Z",
    "first_seen": "2026-11-19",
    "name": "Baptist Health"
   },
@@ -1997,7 +1997,7 @@
     "https://mcleandatasettlement.com/faq/",
     "https://mcleandatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:00.483Z",
+   "verified_at": "2026-11-23T22:45:27.119Z",
    "first_seen": "2026-11-19",
    "name": "McLean Mortgage Corporation"
   },
@@ -2103,7 +2103,7 @@
    "verified_at": "2026-11-19T22:03:58.307Z",
    "first_seen": "2026-11-19",
    "name": "Kimco Staffing Services",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "brockton-neighborhood-health-center",
@@ -2187,7 +2187,7 @@
    "verified_at": "2026-11-19T22:00:45.159Z",
    "first_seen": "2026-11-19",
    "name": "Brockton Neighborhood Health Center",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "brandt-equities-lp",
@@ -2270,7 +2270,7 @@
     "https://brandtequitiessettlement.com/faq/",
     "https://brandtequitiessettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:22.016Z",
+   "verified_at": "2026-11-23T22:42:54.146Z",
    "first_seen": "2026-11-19",
    "name": "Brandt Equities, LP"
   },
@@ -2369,7 +2369,7 @@
    "verified_at": "2026-11-19T22:02:39.186Z",
    "first_seen": "2026-11-19",
    "name": "Fairmont Federal Credit Union",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "asure-software-privacy",
@@ -2434,7 +2434,7 @@
     "https://asurebipasettlement.com/faq/",
     "https://asurebipasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:33:57.020Z",
+   "verified_at": "2026-11-23T22:42:30.773Z",
    "first_seen": "2026-11-19",
    "name": "Asure Software"
   },
@@ -2520,7 +2520,7 @@
     "https://benworthdatasettlement.com/faq/",
     "https://benworthdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:08.847Z",
+   "verified_at": "2026-11-23T22:42:41.686Z",
    "first_seen": "2026-11-19",
    "name": "Benworth Capital Partners"
   },
@@ -2592,7 +2592,7 @@
     "https://datasettlementecsi.com/",
     "https://datasettlementecsi.com/faqs"
    ],
-   "verified_at": "2026-11-22T18:35:07.516Z",
+   "verified_at": "2026-11-23T22:43:38.253Z",
    "first_seen": "2026-11-19",
    "name": "Educational Computer Systems"
   },
@@ -2688,7 +2688,7 @@
     "https://etairoshealthsettlement.com/faq/",
     "https://etairoshealthsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:31.893Z",
+   "verified_at": "2026-11-23T22:44:01.153Z",
    "first_seen": "2026-11-19",
    "name": "Etairos Health"
   },
@@ -2784,7 +2784,7 @@
    "verified_at": "2026-11-19T22:03:10.420Z",
    "first_seen": "2026-11-19",
    "name": "Auxilio Mutuo",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "american-renal-management",
@@ -2889,7 +2889,7 @@
    "verified_at": "2026-11-19T22:03:34.134Z",
    "first_seen": "2026-11-19",
    "name": "American Renal Management",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "telmate",
@@ -2979,7 +2979,7 @@
    "verified_at": "2026-11-19T22:05:42.233Z",
    "first_seen": "2026-11-19",
    "name": "Telmate",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "electronics-for-imaging",
@@ -3078,7 +3078,7 @@
     "https://efidatasettlement.com/faq/",
     "https://efidatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:24.559Z",
+   "verified_at": "2026-11-23T22:43:54.329Z",
    "first_seen": "2026-11-19",
    "name": "Electronics for Imaging"
   },
@@ -3164,7 +3164,7 @@
    "verified_at": "2026-11-19T22:05:52.912Z",
    "first_seen": "2026-11-19",
    "name": "TRC Staffing Services",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "jefferson-blount-st-clair-mental-health-authority",
@@ -3239,7 +3239,7 @@
     "https://www.jbssettlement.com/",
     "https://www.jbssettlement.com/Dates"
    ],
-   "verified_at": "2026-11-22T18:36:31.656Z",
+   "verified_at": "2026-11-23T22:44:58.698Z",
    "first_seen": "2026-11-19",
    "name": "Jefferson-Blount-St. Clair Mental Health Authority"
   },
@@ -3338,7 +3338,7 @@
    "verified_at": "2026-11-19T22:00:12.362Z",
    "first_seen": "2026-11-19",
    "name": "Antigo Construction",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "cbiz-benefits-and-insurance-services",
@@ -3412,7 +3412,7 @@
     "https://cbizdatabreachsettlement.com/faq/",
     "https://cbizdatabreachsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:31.292Z",
+   "verified_at": "2026-11-23T22:43:03.065Z",
    "first_seen": "2026-11-19",
    "name": "CBIZ Benefits & Insurance Services"
   },
@@ -3483,7 +3483,7 @@
     "https://azlaborforcesettlement.com/faq/",
     "https://azlaborforcesettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:00.053Z",
+   "verified_at": "2026-11-23T22:42:33.542Z",
    "first_seen": "2026-11-19",
    "name": "Arizona Labor Force"
   },
@@ -3570,7 +3570,7 @@
     "https://chimientidatasettlement.com/faq/",
     "https://chimientidatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:41.715Z",
+   "verified_at": "2026-11-23T22:43:12.978Z",
    "first_seen": "2026-11-19",
    "name": "Chimienti & Associates"
   },
@@ -3660,7 +3660,7 @@
     "https://graybackforestrydatasettlement.com/faq/",
     "https://graybackforestrydatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:52.608Z",
+   "verified_at": "2026-11-23T22:44:21.221Z",
    "first_seen": "2026-11-19",
    "name": "Grayback Forestry"
   },
@@ -3736,7 +3736,7 @@
    "verified_at": "2026-11-19T22:04:35.706Z",
    "first_seen": "2026-11-19",
    "name": "Missouri Delta Medical Center",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "prime-healthcare-services-privacy",
@@ -3825,7 +3825,7 @@
    "verified_at": "2026-11-19T22:04:59.861Z",
    "first_seen": "2026-11-19",
    "name": "Prime Healthcare Services",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "sherr-puttmann-akins-lamb-pc",
@@ -3924,7 +3924,7 @@
     "https://spaldataincident.com/faq/",
     "https://spaldataincident.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:54.799Z",
+   "verified_at": "2026-11-23T22:46:17.769Z",
    "first_seen": "2026-11-19",
    "name": "Sherr Puttmann Akins Lamb PC"
   },
@@ -4020,7 +4020,7 @@
    "verified_at": "2026-11-19T22:00:56.359Z",
    "first_seen": "2026-11-19",
    "name": "Cardiology Associates of Mobile",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "sirva-relocation",
@@ -4135,7 +4135,7 @@
     "https://sirvadatasettlement.com/faq/",
     "https://sirvadatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:49.120Z",
+   "verified_at": "2026-11-23T22:46:12.787Z",
    "first_seen": "2026-11-19",
    "name": "Sirva Relocation"
   },
@@ -4237,7 +4237,7 @@
     "https://bauersecurityincident.com/faq/",
     "https://bauersecurityincident.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:03.470Z",
+   "verified_at": "2026-11-23T22:42:36.415Z",
    "first_seen": "2026-11-19",
    "name": "Bauer Built"
   },
@@ -4327,7 +4327,7 @@
    "verified_at": "2026-11-19T22:05:16.414Z",
    "first_seen": "2026-11-19",
    "name": "Roseland Community Hospital Association",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "sonic-healthcare-u-s-a",
@@ -4423,7 +4423,7 @@
    "verified_at": "2026-11-19T21:59:59.573Z",
    "first_seen": "2026-11-19",
    "name": "Sonic Healthcare U.S.A.",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "riverside-resort-and-casino",
@@ -4517,7 +4517,7 @@
     "https://riversidedatasettlement.com/faq/",
     "https://riversidedatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:35.247Z",
+   "verified_at": "2026-11-23T22:45:59.517Z",
    "first_seen": "2026-11-19",
    "name": "Riverside Resort & Casino"
   },
@@ -4607,7 +4607,7 @@
     "https://redcoatssettlement.com/faq/",
     "https://redcoatssettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:29.170Z",
+   "verified_at": "2026-11-23T22:45:53.929Z",
    "first_seen": "2026-11-19",
    "name": "Red Coats"
   },
@@ -4692,7 +4692,7 @@
    "verified_at": "2026-11-19T22:06:17.454Z",
    "first_seen": "2026-11-19",
    "name": "Washington Gastroenterology",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "compumedics-usa",
@@ -4769,7 +4769,7 @@
    "verified_at": "2026-11-19T22:01:34.823Z",
    "first_seen": "2026-11-19",
    "name": "Compumedics USA",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "new-york-school-of-interior-design",
@@ -4872,7 +4872,7 @@
     "https://nysiddatasettlement.com/faq/",
     "https://nysiddatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:13.706Z",
+   "verified_at": "2026-11-23T22:45:39.750Z",
    "first_seen": "2026-11-19",
    "name": "New York School of Interior Design"
   },
@@ -4974,7 +4974,7 @@
     "https://lowedataincident.com/faq/",
     "https://lowedataincident.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:55.113Z",
+   "verified_at": "2026-11-23T22:45:21.928Z",
    "first_seen": "2026-11-19",
    "name": "Lowe Engineers"
   },
@@ -5067,7 +5067,7 @@
     "https://renkimdatasettlement.com/faq/",
     "https://renkimdatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:37:32.251Z",
+   "verified_at": "2026-11-23T22:45:56.829Z",
    "first_seen": "2026-11-19",
    "name": "Renkim Corporation"
   },
@@ -5162,7 +5162,7 @@
     "https://woodlochsettlement.com/faq/",
     "https://woodlochsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:36.655Z",
+   "verified_at": "2026-11-23T22:46:58.179Z",
    "first_seen": "2026-11-19",
    "name": "Woodloch Pines"
   },
@@ -5253,7 +5253,7 @@
     "https://blueridgedatasettlement.com/faq/",
     "https://blueridgedatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:14.737Z",
+   "verified_at": "2026-11-23T22:42:47.600Z",
    "first_seen": "2026-11-19",
    "name": "Blue Ridge Rural Water Company"
   },
@@ -5336,7 +5336,7 @@
     "https://cfisettlement.com/faq/",
     "https://cfisettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:34:38.408Z",
+   "verified_at": "2026-11-23T22:43:10.115Z",
    "first_seen": "2026-11-19",
    "name": "Case Foods"
   },
@@ -5429,7 +5429,7 @@
     "https://vsidatasettlement.com/faq/",
     "https://vsidatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:25.351Z",
+   "verified_at": "2026-11-23T22:46:47.129Z",
    "first_seen": "2026-11-19",
    "name": "Vida Y Salud-Health Systems"
   },
@@ -5520,7 +5520,7 @@
    "verified_at": "2026-11-19T22:02:10.657Z",
    "first_seen": "2026-11-19",
    "name": "DaVita",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "hampton-regional-medical-center",
@@ -5604,7 +5604,7 @@
    "verified_at": "2026-11-19T22:03:18.209Z",
    "first_seen": "2026-11-19",
    "name": "Hampton Regional Medical Center",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "kisco-senior-living",
@@ -5700,7 +5700,7 @@
     "https://www.kiscosettlement.com/",
     "https://www.kiscosettlement.com/Dates"
    ],
-   "verified_at": "2026-11-22T18:36:42.109Z",
+   "verified_at": "2026-11-23T22:45:09.304Z",
    "first_seen": "2026-11-19",
    "name": "Kisco Senior Living"
   },
@@ -5796,7 +5796,7 @@
    "verified_at": "2026-11-19T22:01:25.166Z",
    "first_seen": "2026-11-19",
    "name": "Warrior Met Coal",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "columbia-university",
@@ -5880,7 +5880,7 @@
     "https://columbiauniversitydatasettlement.com/",
     "https://columbiauniversitydatasettlement.com/faqs"
    ],
-   "verified_at": "2026-11-22T18:34:51.637Z",
+   "verified_at": "2026-11-23T22:43:22.798Z",
    "first_seen": "2026-11-19",
    "name": "Columbia University"
   },
@@ -5960,7 +5960,7 @@
     "https://www.wmgdatasettlement.com/",
     "https://www.wmgdatasettlement.com/faqs/"
    ],
-   "verified_at": "2026-11-22T18:38:31.645Z",
+   "verified_at": "2026-11-23T22:46:53.224Z",
    "first_seen": "2026-11-19",
    "name": "Warner Music Group Corp."
   },
@@ -6054,7 +6054,7 @@
     "https://cqtcybersettlement.com/faq/",
     "https://cqtcybersettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:05.353Z",
+   "verified_at": "2026-11-23T22:43:35.890Z",
    "first_seen": "2026-11-19",
    "name": "The Cornwell Quality Tools Company"
   },
@@ -6128,7 +6128,7 @@
     "https://disettlement.com/faq/",
     "https://disettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:14.175Z",
+   "verified_at": "2026-11-23T22:43:44.893Z",
    "first_seen": "2026-11-19",
    "name": "Dental Intelligence"
   },
@@ -6213,7 +6213,7 @@
    "verified_at": "2026-11-20T19:10:25.608Z",
    "first_seen": "2026-11-19",
    "name": "Doctors Imaging Group",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "academy-mortgage-corporation",
@@ -6303,7 +6303,7 @@
    "verified_at": "2026-11-19T21:59:51.758Z",
    "first_seen": "2026-11-19",
    "name": "Academy Mortgage Corporation",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "the-merchant-of-tennis",
@@ -6394,7 +6394,7 @@
     "https://usmsettlement.com/faq/",
     "https://usmsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:15.521Z",
+   "verified_at": "2026-11-23T22:46:37.803Z",
    "first_seen": "2026-11-19",
    "name": "The Merchant of Tennis"
   },
@@ -6479,7 +6479,7 @@
     "https://dothousedatasettlement.com/faq/",
     "https://dothousedatasettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:35:17.384Z",
+   "verified_at": "2026-11-23T22:43:47.742Z",
    "first_seen": "2026-11-19",
    "name": "DotHouse Health"
   },
@@ -6567,7 +6567,7 @@
    "verified_at": "2026-11-19T22:03:50.049Z",
    "first_seen": "2026-11-19",
    "name": "Johnson Controls",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "yuma-regional-medical-center",
@@ -6656,7 +6656,7 @@
     "https://www.yumasettlement.com/",
     "https://www.yumasettlement.com/faqs/"
    ],
-   "verified_at": "2026-11-22T18:38:39.105Z",
+   "verified_at": "2026-11-23T22:47:00.435Z",
    "first_seen": "2026-11-19",
    "name": "Yuma Regional Medical Center"
   },
@@ -6769,7 +6769,7 @@
     "https://internationalcoffeesettlement.com/faq/",
     "https://internationalcoffeesettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:36:19.471Z",
+   "verified_at": "2026-11-23T22:44:47.039Z",
    "first_seen": "2026-11-19",
    "name": "International Coffee & Tea"
   },
@@ -6868,7 +6868,7 @@
    "verified_at": "2026-11-19T22:01:42.372Z",
    "first_seen": "2026-11-19",
    "name": "Covenant Health",
-   "last_read_failed": "2026-11-22"
+   "last_read_failed": "2026-11-23"
   },
   {
    "slug": "amisub-sfh-privacy",
@@ -6941,7 +6941,7 @@
     "https://tenetpixelsettlement.com/faq/",
     "https://tenetpixelsettlement.com/dates/"
    ],
-   "verified_at": "2026-11-22T18:38:04.502Z",
+   "verified_at": "2026-11-23T22:46:27.245Z",
    "first_seen": "2026-11-19",
    "name": "AMISUB (SFH)"
   }

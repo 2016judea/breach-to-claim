@@ -1,15 +1,15 @@
 # Breach to Claim
 
-> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-22T18:38:43.208Z.
+> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-23T22:47:04.268Z.
 
-- 79 settlements open for claims; 37 close within 30 days, 8 within 7.
+- 79 settlements open for claims; 38 close within 30 days, 10 within 7.
 - MCP server (Streamable HTTP, no auth): https://breach-to-claim.vercel.app/mcp — tools find_breach_settlement, list_open_breach_settlements, breach_settlement_details.
 - Full list as JSON: https://breach-to-claim.vercel.app/settlements.json
 - Each settlement page: https://breach-to-claim.vercel.app/s/<slug>/
 
 ## La Jolla Group (data breach)
 
-- Claim deadline: 2026-11-23 (1 days left on 2026-11-22)
+- Claim deadline: 2026-11-23 (0 days left on 2026-11-23)
 - Pays: Two years of one-bureau credit monitoring with identity theft insurance; no documentation needed. | Up to 4 hours at $25/hour for time spent dealing with the incident; attestation only. | Reimbursement of documented unreimbursed out-of-pocket losses from the incident, up to $2,000. | $95 for California Subclass, $45 for others, instead of loss claims; no documentation.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: yes
@@ -17,12 +17,12 @@
 - Case: Jaime Dempsey, et al. v. La Jolla Group, Inc., 30-2024-01416569-CU-MC-CXC, Superior Court of California, County of Orange
 - Administrator: Analytics Consulting LLC
 - Official site: https://ljgdatasettlement.com/ ; claim form: https://dempseylajolla.claims-administrator.com/
-- Read from: https://ljgdatasettlement.com/, https://ljgdatasettlement.com/frequently-asked-questions/, https://ljgdatasettlement.com/important-deadlines/ on 2026-11-22
+- Read from: https://ljgdatasettlement.com/, https://ljgdatasettlement.com/frequently-asked-questions/, https://ljgdatasettlement.com/important-deadlines/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/la-jolla-group/
 
 ## Vasindas’ Around the Clock Care (data breach)
 
-- Claim deadline: 2026-11-23 (1 days left on 2026-11-22)
+- Claim deadline: 2026-11-23 (0 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the Data Incident, with proof like receipts or bank statements. | One-time $70 cash payment instead of other payments; no proof needed. | Two years of CyEx Medical Shield Complete medical monitoring with medical identity theft insurance.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -30,12 +30,12 @@
 - Case: Nelson et al. v. Vasindas’ Around the Clock Care, Inc., BCV-24-102900, Superior Court for Kern County, California
 - Administrator: Simpluris
 - Official site: https://vasindasdatasettlement.com/ ; claim form: https://vasindasdatasettlement.com/form/claim
-- Read from: https://vasindasdatasettlement.com/, https://vasindasdatasettlement.com/faq/, https://vasindasdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://vasindasdatasettlement.com/, https://vasindasdatasettlement.com/faq/, https://vasindasdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/vasindas-around-the-clock-care/
 
 ## Laboratory Services Cooperative (data breach)
 
-- Claim deadline: 2026-11-24 (2 days left on 2026-11-22)
+- Claim deadline: 2026-11-24 (1 days left on 2026-11-23)
 - Pays: Reimbursement for documented out-of-pocket losses. | A pro-rata cash payment from the fund. | Credit monitoring and medical shield services.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -43,12 +43,12 @@
 - Case: In re Laboratory Services Cooperative Data Breach Litigation, 2:25-cv-00685-BJR, United States District Court for the Western District of Washington
 - Administrator: not stated
 - Official site: https://lscdatasettlement.com/ ; claim form: https://lscdatasettlement.com/submit-claim
-- Read from: https://lscdatasettlement.com/, https://lscdatasettlement.com/faqs on 2026-11-22
+- Read from: https://lscdatasettlement.com/, https://lscdatasettlement.com/faqs on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/laboratory-services-cooperative/
 
 ## Fujifilm Diosynth Biotechnologies U.S.A. (data breach)
 
-- Claim deadline: 2026-11-25 (3 days left on 2026-11-22)
+- Claim deadline: 2026-11-25 (2 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the Data Incident, up to $2,500, pro rata; $175,000 aggregate cap. | Alternative $50 cash payment instead of out-of-pocket losses, no documentation needed. | Two years of free CyEx Identity Defense Complete credit monitoring for all class members. | Defendant implementing additional security measures.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -56,12 +56,12 @@
 - Case: Johnson et al. v. Fujifilm Diosynth Biotechnologies U.S.A., Inc., 26CV012339-910, Wake County Superior Court
 - Administrator: Simpluris
 - Official site: https://flbdatasettlement.com/ ; claim form: https://flbdatasettlement.com/form/claim
-- Read from: https://flbdatasettlement.com/, https://flbdatasettlement.com/faq/, https://flbdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://flbdatasettlement.com/, https://flbdatasettlement.com/faq/, https://flbdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/fujifilm-diosynth-biotechnologies-u-s-a/
 
 ## Johnson & Johnson Consumer (privacy (tracking))
 
-- Claim deadline: 2026-11-25 (3 days left on 2026-11-22)
+- Claim deadline: 2026-11-25 (2 days left on 2026-11-23)
 - Pays: Equal pro rata share of the net settlement fund for each valid claim; no documentation required. | JJCI deletes Skin360 images and maintains notice, consent, and retention policies.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -69,12 +69,12 @@
 - Case: Melzer v. Johnson & Johnson Consumer Inc., 3:22−CV−03149-MAS-RLS, United States District Court for the District of New Jersey
 - Administrator: Eisner Advisory Group LLC
 - Official site: https://www.skin360bipasettlement.com/ ; claim form: https://skin360bipasettlement.pnclassaction.com/
-- Read from: https://www.skin360bipasettlement.com/, https://www.skin360bipasettlement.com/faqs/ on 2026-11-22
+- Read from: https://www.skin360bipasettlement.com/, https://www.skin360bipasettlement.com/faqs/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/johnson-and-johnson-consumer-privacy/
 
 ## Ben E. Keith Company (data breach)
 
-- Claim deadline: 2026-11-26 (4 days left on 2026-11-22)
+- Claim deadline: 2026-11-26 (3 days left on 2026-11-23)
 - Pays: Cash payment for eligible Settlement Class Members who submit a valid claim. | Credit monitoring for eligible Settlement Class Members who submit a valid claim.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -82,12 +82,12 @@
 - Case: Baca, et al. v. Ben E. Keith Company, 067-348166-23, District Court of Tarrant County, Texas, 67th Judicial District Court
 - Administrator: not stated
 - Official site: https://bekdataincidentsettlement.com/ ; claim form: https://bekdataincidentsettlement.com/submit-claim
-- Read from: https://bekdataincidentsettlement.com/, https://bekdataincidentsettlement.com/faqs on 2026-11-22
+- Read from: https://bekdataincidentsettlement.com/, https://bekdataincidentsettlement.com/faqs on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/ben-e-keith-company/
 
 ## CPAP Medical Supplies and Services (data breach)
 
-- Claim deadline: 2026-11-26 (4 days left on 2026-11-22)
+- Claim deadline: 2026-11-26 (3 days left on 2026-11-23)
 - Pays: Two years of CyEx Medical Shield Complete medical data monitoring with $1 million medical identity theft insurance. | Reimbursement up to $5,000 for documented out-of-pocket losses caused by the Data Incident; proof required.
 - Most cash: $5,000; option without receipts: no
 - Needs the code on the notice: not stated
@@ -95,12 +95,12 @@
 - Case: Brett Conner v. CPAP Medical Supplies and Services, Inc., CACE-26-011830, Circuit Court for Broward County, Florida
 - Administrator: Simpluris
 - Official site: https://cpapdataincidentsettlement.com/ ; claim form: https://cpapdataincidentsettlement.com/form/claim
-- Read from: https://cpapdataincidentsettlement.com/, https://cpapdataincidentsettlement.com/faq/, https://cpapdataincidentsettlement.com/dates/ on 2026-11-22
+- Read from: https://cpapdataincidentsettlement.com/, https://cpapdataincidentsettlement.com/faq/, https://cpapdataincidentsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/cpap-medical-supplies-and-services/
 
 ## Finastra Technology (data breach)
 
-- Claim deadline: 2026-11-27 (5 days left on 2026-11-22)
+- Claim deadline: 2026-11-27 (4 days left on 2026-11-23)
 - Pays: One year of CyEx Financial Shield Complete credit monitoring with fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof like receipts. | One-time pro rata cash payment instead of documented losses; no proof needed.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -108,12 +108,12 @@
 - Case: Tina Parsley Hughes, et al. v. Finastra Technology, Inc., CACE26013154, Circuit Court for Broward County, Florida
 - Administrator: Simpluris
 - Official site: https://finastradatasettlement.com/ ; claim form: https://finastradatasettlement.com/form/claim
-- Read from: https://finastradatasettlement.com/, https://finastradatasettlement.com/faq/, https://finastradatasettlement.com/dates/ on 2026-11-22
+- Read from: https://finastradatasettlement.com/, https://finastradatasettlement.com/faq/, https://finastradatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/finastra-technology/
 
 ## Hire Velocity (data breach)
 
-- Claim deadline: 2026-11-30 (8 days left on 2026-11-22)
+- Claim deadline: 2026-11-30 (7 days left on 2026-11-23)
 - Pays: Reimbursement up to $2,000 for documented out-of-pocket losses from the Data Incident; reasonable documentation required. | Alternate $40 cash payment instead of Cash Payment A; no documentation needed. | Two years of three-bureau credit monitoring with $1 million insurance, in addition to a cash payment.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -126,7 +126,7 @@
 
 ## Jack’s Family Restaurants, LP (data breach)
 
-- Claim deadline: 2026-11-30 (8 days left on 2026-11-22)
+- Claim deadline: 2026-11-30 (7 days left on 2026-11-23)
 - Pays: 3 years of identity theft protection and credit monitoring, including $1,000,000 identity theft insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with third-party documentation required. | $20 per hour for up to 4 hours spent responding to the Data Incident. | $55 alternative cash payment instead of documented losses and lost time.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -134,12 +134,12 @@
 - Case: In re Jack’s Family Restaurants, LP Data Breach Litigation, 2:25-cv-01861-LCB, United States District Court, Northern District of Alabama, Northern Division
 - Administrator: Simpluris
 - Official site: https://jacksdatabreachsettlement.com/ ; claim form: https://jacksdatabreachsettlement.com/form/claim
-- Read from: https://jacksdatabreachsettlement.com/, https://jacksdatabreachsettlement.com/faq/, https://jacksdatabreachsettlement.com/dates/ on 2026-11-22
+- Read from: https://jacksdatabreachsettlement.com/, https://jacksdatabreachsettlement.com/faq/, https://jacksdatabreachsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/jack-s-family-restaurants-lp/
 
 ## Evernorth Health (privacy (tracking))
 
-- Claim deadline: 2026-12-01 (9 days left on 2026-11-22)
+- Claim deadline: 2026-12-01 (8 days left on 2026-11-23)
 - Pays: Up to $15 cash; attest you used the MDLIVE portal in the period and had an active Facebook and/or Google account.
 - Most cash: $15; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -152,7 +152,7 @@
 
 ## GeoTek (data breach)
 
-- Claim deadline: 2026-12-01 (9 days left on 2026-11-22)
+- Claim deadline: 2026-12-01 (8 days left on 2026-11-23)
 - Pays: Two years of credit monitoring from one bureau with $1 million identity theft insurance; no proof needed. | Reimbursement of documented out-of-pocket expenses from the incident, up to $2,000, with receipts. | One-time cash payment, expected $25 or $75 for California residents; no proof needed.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: yes
@@ -160,12 +160,12 @@
 - Case: Borron, et al. v. GeoTek, Inc., 25CU002241C, Superior Court of San Diego County, California
 - Administrator: Simpluris
 - Official site: https://geotekcyberincident.com/ ; claim form: https://geotekcyberincident.com/form/claim
-- Read from: https://geotekcyberincident.com/, https://geotekcyberincident.com/faq/, https://geotekcyberincident.com/dates/ on 2026-11-22
+- Read from: https://geotekcyberincident.com/, https://geotekcyberincident.com/faq/, https://geotekcyberincident.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/geotek/
 
 ## B.D. Holt Co. (data breach)
 
-- Claim deadline: 2026-12-01 (9 days left on 2026-11-22)
+- Claim deadline: 2026-12-01 (8 days left on 2026-11-23)
 - Pays: Two years of three-bureau credit monitoring with $1 million fraud protection. | Reimbursement of documented out-of-pocket losses from the incident; receipts required. | Up to four hours at $20/hour for time spent responding to the incident. | One-time $50 cash payment instead of Payments A or B; no proof needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -173,12 +173,12 @@
 - Case: Damon Quinn and Scott Moran v. B.D. Holt Co., 2025CI06321, 37th Judicial District Court for Bexar County, Texas
 - Administrator: Simpluris
 - Official site: https://holtgroupdatasettlement.com/ ; claim form: https://holtgroupdatasettlement.com/form/claim
-- Read from: https://holtgroupdatasettlement.com/, https://holtgroupdatasettlement.com/faq/, https://holtgroupdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://holtgroupdatasettlement.com/, https://holtgroupdatasettlement.com/faq/, https://holtgroupdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/b-d-holt-co/
 
 ## Steel Warehouse Company (data breach)
 
-- Claim deadline: 2026-12-01 (9 days left on 2026-11-22)
+- Claim deadline: 2026-12-01 (8 days left on 2026-11-23)
 - Pays: One year of CyEx Financial Shield Complete credit monitoring with fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof. | Up to three hours at $20/hour for time spent; brief description required. | One-time $40 payment instead of other cash payments, no proof needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -186,12 +186,12 @@
 - Case: In re: Steel Warehouse Data Incident Litigation, 71D04-2508-CE-000011, Indiana Commercial Court in the St. Joseph County Superior Court
 - Administrator: Simpluris
 - Official site: https://steelwarehousedatasettlement.com/ ; claim form: https://steelwarehousedatasettlement.com/form/claim
-- Read from: https://steelwarehousedatasettlement.com/, https://steelwarehousedatasettlement.com/faq/, https://steelwarehousedatasettlement.com/dates/ on 2026-11-22
+- Read from: https://steelwarehousedatasettlement.com/, https://steelwarehousedatasettlement.com/faq/, https://steelwarehousedatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/steel-warehouse-company/
 
 ## Seattle Public Schools (data breach)
 
-- Claim deadline: 2026-12-02 (10 days left on 2026-11-22)
+- Claim deadline: 2026-12-02 (9 days left on 2026-11-23)
 - Pays: 
 - Most cash: not stated; option without receipts: no
 - Needs the code on the notice: not stated
@@ -199,12 +199,12 @@
 - Case: Fitch, et al. v. Seattle Public Schools, et al., 25-2-04060-7 SEA, Superior Court of the State of Washington, King County
 - Administrator: not stated
 - Official site: https://carruthsettlement.com/ ; claim form: https://carruthsettlement.com/submit-claim
-- Read from: https://carruthsettlement.com/, https://carruthsettlement.com/faqs on 2026-11-22
+- Read from: https://carruthsettlement.com/, https://carruthsettlement.com/faqs on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/seattle-public-schools/
 
 ## Inotiv (data breach)
 
-- Claim deadline: 2026-12-02 (10 days left on 2026-11-22)
+- Claim deadline: 2026-12-02 (9 days left on 2026-11-23)
 - Pays: Two years of CyEx Medical Shield Complete with medical identity theft insurance. | Reimbursement of documented out-of-pocket expenses from the breach, with receipts. | Reimbursement of documented identity theft or fraud losses likely caused by the breach. | Up to four hours at $20/hour with written description and attestation. | One-time $45 payment instead of other payments, no proof needed.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -212,12 +212,12 @@
 - Case: Doyal v. Inotiv Inc., 49D01-2604-CE-020713, Superior Court for Marion County, Indiana
 - Administrator: Simpluris
 - Official site: https://inotivdatabreachsettlement.com/ ; claim form: https://inotivdatabreachsettlement.com/form/claim
-- Read from: https://inotivdatabreachsettlement.com/, https://inotivdatabreachsettlement.com/faq/, https://inotivdatabreachsettlement.com/dates/ on 2026-11-22
+- Read from: https://inotivdatabreachsettlement.com/, https://inotivdatabreachsettlement.com/faq/, https://inotivdatabreachsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/inotiv/
 
 ## Institute for Human Resources and Services (data breach)
 
-- Claim deadline: 2026-12-02 (10 days left on 2026-11-22)
+- Claim deadline: 2026-12-02 (9 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the breach, with proof like receipts or bank statements. | One-time $45 cash payment instead of documented losses; no proof needed. | Two years of CyEx Financial Shield Complete credit monitoring with fraud insurance.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -225,12 +225,12 @@
 - Case: Tereska v. Institute for Human Resources and Services, 2026-02353, Court of Common Pleas of Luzerne County, Pennsylvania
 - Administrator: Simpluris
 - Official site: https://institutehrdatasettlement.com/ ; claim form: https://institutehrdatasettlement.com/form/claim
-- Read from: https://institutehrdatasettlement.com/, https://institutehrdatasettlement.com/faq/, https://institutehrdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://institutehrdatasettlement.com/, https://institutehrdatasettlement.com/faq/, https://institutehrdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/institute-for-human-resources-and-services/
 
 ## Safe Fleet Holdings (data breach)
 
-- Claim deadline: 2026-12-02 (10 days left on 2026-11-22)
+- Claim deadline: 2026-12-02 (9 days left on 2026-11-23)
 - Pays: Two years of CyEx Financial Shield Complete credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with third-party proof. | One-time $50 cash payment instead of out-of-pocket losses; no proof needed.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -238,12 +238,12 @@
 - Case: Ferry et al., v. Safe Fleet Holdings LLC and Clarience Technologies, LLC, 26CA-CC0013, Circuit Court for Cass County, Missouri
 - Administrator: Simpluris
 - Official site: https://safefleetdatasettlement.com/ ; claim form: https://safefleetdatasettlement.com/form/claim
-- Read from: https://safefleetdatasettlement.com/, https://safefleetdatasettlement.com/faq/, https://safefleetdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://safefleetdatasettlement.com/, https://safefleetdatasettlement.com/faq/, https://safefleetdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/safe-fleet-holdings/
 
 ## Fertility Centers of Illinois (privacy (tracking))
 
-- Claim deadline: 2026-12-03 (11 days left on 2026-11-22)
+- Claim deadline: 2026-12-03 (10 days left on 2026-11-23)
 - Pays: Equal pro rata share of the Settlement Fund, estimated $30-$60; no documentation required.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -256,7 +256,7 @@
 
 ## ITS Technologies & Logistics (privacy (tracking))
 
-- Claim deadline: 2026-12-04 (12 days left on 2026-11-22)
+- Claim deadline: 2026-12-04 (11 days left on 2026-11-23)
 - Pays: Approximately $964.48 cash payment per class member who submits a valid claim form; no documentation needed.
 - Most cash: $964; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -264,12 +264,12 @@
 - Case: McGivney v. ITS Technologies and Logistic, LLC, 2026-LA-000924, Circuit Court of DuPage County, Illinois
 - Administrator: Simpluris
 - Official site: https://itsbipasettlement.com/ ; claim form: https://itsbipasettlement.com/
-- Read from: https://itsbipasettlement.com/, https://itsbipasettlement.com/faq/, https://itsbipasettlement.com/dates/ on 2026-11-22
+- Read from: https://itsbipasettlement.com/, https://itsbipasettlement.com/faq/, https://itsbipasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/its-technologies-and-logistics-privacy/
 
 ## USC Arcadia Hospital (privacy (tracking))
 
-- Claim deadline: 2026-12-07 (15 days left on 2026-11-22)
+- Claim deadline: 2026-12-07 (14 days left on 2026-11-23)
 - Pays: Equal pro rata share of the net settlement fund for class members submitting a valid claim form. | One year of CyEx Privacy Shield Pro dark web monitoring for all class members; activate by March 15, 2027 using notice code.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: yes
@@ -277,12 +277,12 @@
 - Case: Merle v. USC Arcadia Hospital, 23STCV01900, Supreme Court of the State of California, Los Angeles County
 - Administrator: Simpluris
 - Official site: https://uscarcadiahospitalsettlement.com/ ; claim form: https://uscarcadiahospitalsettlement.com/form/claim
-- Read from: https://uscarcadiahospitalsettlement.com/, https://uscarcadiahospitalsettlement.com/faq/, https://uscarcadiahospitalsettlement.com/dates/ on 2026-11-22
+- Read from: https://uscarcadiahospitalsettlement.com/, https://uscarcadiahospitalsettlement.com/faq/, https://uscarcadiahospitalsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/usc-arcadia-hospital-privacy/
 
 ## Wayne Memorial Hospital Auxiliary (data breach)
 
-- Claim deadline: 2026-12-07 (15 days left on 2026-11-22)
+- Claim deadline: 2026-12-07 (14 days left on 2026-11-23)
 - Pays: Reimbursement of documented losses from the Data Incident. | Alternate cash payment instead of documented losses. | All class members automatically entitled to enroll in credit monitoring.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -290,12 +290,12 @@
 - Case: Bates v. Wayne Memorial Hospital, SUCV2025000239, Superior Court of Wayne County State of Georgia
 - Administrator: CPT Group
 - Official site: https://www.wmhdatasettlement.com/ ; claim form: https://www.wmhdatasettlement.com/Login
-- Read from: https://www.wmhdatasettlement.com/, https://www.wmhdatasettlement.com/Dates on 2026-11-22
+- Read from: https://www.wmhdatasettlement.com/, https://www.wmhdatasettlement.com/Dates on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/wayne-memorial-hospital-auxiliary/
 
 ## Baptist Health (data breach)
 
-- Claim deadline: 2026-12-08 (16 days left on 2026-11-22)
+- Claim deadline: 2026-12-08 (15 days left on 2026-11-23)
 - Pays: Two years of one-bureau credit monitoring with $1 million identity theft insurance. | Up to 4 hours at $20/hour for time spent on the incident; describe and attest. | Reimbursement of documented out-of-pocket expenses caused by the incident, with receipts. | Reimbursement for identity theft or fraud losses likely caused by the incident, with proof.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -303,12 +303,12 @@
 - Case: Latanya Frazier & Chanta Ringo v. Baptist Health, 40CV-25-62, Circuit Court of Lincoln County, Arkansas, Civil Division
 - Administrator: Simpluris
 - Official site: https://bhsettlement.com/ ; claim form: https://bhsettlement.com/form/claim
-- Read from: https://bhsettlement.com/, https://bhsettlement.com/faq/, https://bhsettlement.com/dates/ on 2026-11-22
+- Read from: https://bhsettlement.com/, https://bhsettlement.com/faq/, https://bhsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/baptist-health/
 
 ## McLean Mortgage Corporation (data breach)
 
-- Claim deadline: 2026-12-10 (18 days left on 2026-11-22)
+- Claim deadline: 2026-12-10 (17 days left on 2026-11-23)
 - Pays: Three years of CyEx Financial Shield Complete one-bureau credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket expenses from the Data Incident; receipts required. | Extraordinary losses from identity theft or fraud caused by the incident, with proof. | Up to four hours at $25/hour with attestation describing time spent. | One-time $45 cash payment instead of other payments; no proof needed.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -316,12 +316,12 @@
 - Case: In re McLean Data Breach Litigation, 3:25-cv-00461, United States District Court for the Eastern District of Virginia
 - Administrator: Simpluris
 - Official site: https://mcleandatasettlement.com/ ; claim form: https://mcleandatasettlement.com/form/claim
-- Read from: https://mcleandatasettlement.com/, https://mcleandatasettlement.com/faq/, https://mcleandatasettlement.com/dates/ on 2026-11-22
+- Read from: https://mcleandatasettlement.com/, https://mcleandatasettlement.com/faq/, https://mcleandatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/mclean-mortgage-corporation/
 
 ## Kimco Staffing Services (data breach)
 
-- Claim deadline: 2026-12-15 (23 days left on 2026-11-22)
+- Claim deadline: 2026-12-15 (22 days left on 2026-11-23)
 - Pays: Two years of credit monitoring and identity protection with $1,000,000 identity theft insurance for any valid claimant. | Up to $5,000 for documented out-of-pocket losses fairly traceable to the Data Incident. | $50 cash for class members who lived in California on June 24, 2023. | Pro rata share of remaining settlement fund for valid claimants. | Kimco security improvements costing about $400,000, paid separately from the fund.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -334,7 +334,7 @@
 
 ## Brockton Neighborhood Health Center (data breach)
 
-- Claim deadline: 2026-12-16 (24 days left on 2026-11-22)
+- Claim deadline: 2026-12-16 (23 days left on 2026-11-23)
 - Pays: Up to $2,500 for unreimbursed losses caused by the Data Incident, with third-party documentation. | Up to 3 hours at $30/hour ($90) for time spent responding; attestation only. | Alternative cash payment up to $50 instead of losses/time claims; no documentation. | Three years of one-bureau credit monitoring with $1 million identity theft insurance.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -347,7 +347,7 @@
 
 ## Brandt Equities, LP (data breach)
 
-- Claim deadline: 2026-12-17 (25 days left on 2026-11-22)
+- Claim deadline: 2026-12-17 (24 days left on 2026-11-23)
 - Pays: Two years of CyEx Identity Defense Complete with $1 million identity theft insurance. | Reimbursement of documented out-of-pocket losses traceable to the Data Incident, up to $3,500. | Up to four hours at $20/hour for time spent responding to the Data Incident.
 - Most cash: $3,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -355,12 +355,12 @@
 - Case: Spencer Andrews, et al. v. Brandt Equities, LP, 09-2026-CV-01466, District Court for Cass County, North Dakota
 - Administrator: Simpluris
 - Official site: https://brandtequitiessettlement.com/ ; claim form: https://brandtequitiessettlement.com/form/claim
-- Read from: https://brandtequitiessettlement.com/, https://brandtequitiessettlement.com/faq/, https://brandtequitiessettlement.com/dates/ on 2026-11-22
+- Read from: https://brandtequitiessettlement.com/, https://brandtequitiessettlement.com/faq/, https://brandtequitiessettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/brandt-equities-lp/
 
 ## Fairmont Federal Credit Union (data breach)
 
-- Claim deadline: 2026-12-18 (26 days left on 2026-11-22)
+- Claim deadline: 2026-12-18 (25 days left on 2026-11-23)
 - Pays: Reimbursement of documented, unreimbursed out-of-pocket losses traceable to the incident, with third-party documentation. | Up to 4 hours at $35/hour for time spent dealing with the incident, with attestation. | Alternative cash payment instead of losses/time; no documentation; pro rata adjusted. | Three years of one-bureau credit monitoring and identity restoration with $1,000,000 identity theft insurance. | FFCU will provide cybersecurity enhancements, including training, for five years.
 - Most cash: $7,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -373,7 +373,7 @@
 
 ## Asure Software (privacy (tracking))
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Equal share of the net fund for each valid claim, estimated $950–$2,800; no documentation required.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -381,12 +381,12 @@
 - Case: Vega v. Asure Software, Inc., 2022-CH-00651, Circuit Court of Cook County, Illinois
 - Administrator: Simpluris
 - Official site: https://asurebipasettlement.com/ ; claim form: https://asurebipasettlement.com/form/claim
-- Read from: https://asurebipasettlement.com/, https://asurebipasettlement.com/faq/, https://asurebipasettlement.com/dates/ on 2026-11-22
+- Read from: https://asurebipasettlement.com/, https://asurebipasettlement.com/faq/, https://asurebipasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/asure-software-privacy/
 
 ## Benworth Capital Partners (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Reimbursement up to $5,000 for documented losses fairly traceable to the Data Incident; documentation required. | Alternative estimated $50 cash payment instead of documented losses; no documentation needed. | One year of free credit monitoring automatically, activation code on notice; no claim needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -394,12 +394,12 @@
 - Case: Amanda Arreola, et al v. Benworth Capital Partners LLC, CACE-26-012064, Circuit Court for Broward County, Florida
 - Administrator: Simpluris
 - Official site: https://benworthdatasettlement.com/ ; claim form: https://benworthdatasettlement.com/form/claim
-- Read from: https://benworthdatasettlement.com/, https://benworthdatasettlement.com/faq/, https://benworthdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://benworthdatasettlement.com/, https://benworthdatasettlement.com/faq/, https://benworthdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/benworth-capital-partners/
 
 ## Educational Computer Systems (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Reimbursement of documented unreimbursed losses more likely than not caused by the incident, up to $5,000. | Alternative cash payment of about $100 instead of loss reimbursement, adjusted pro rata.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -407,12 +407,12 @@
 - Case: Hood, et al. v. Educational Computer Systems, Inc., 2:24-cv-00666-CCW, United States District Court For the Western District of Pennsylvania
 - Administrator: not stated
 - Official site: https://datasettlementecsi.com/ ; claim form: https://datasettlementecsi.com/submit-claim
-- Read from: https://datasettlementecsi.com/, https://datasettlementecsi.com/faqs on 2026-11-22
+- Read from: https://datasettlementecsi.com/, https://datasettlementecsi.com/faqs on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/educational-computer-systems/
 
 ## Etairos Health (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Reimbursement of documented unreimbursed out-of-pocket losses from the Data Incident, up to $4,500 including lost time. | Up to 8 hours at $15/hour for time spent, with attestation and brief description. | Alternative $75 cash payment instead of claiming losses and time. | Free credit monitoring services for those who submit a claim. | Etairos will maintain data security procedures for 3 years.
 - Most cash: $4,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -420,12 +420,12 @@
 - Case: Isabel Garcia Bueno v. Etairos Health, Inc., 24-002129-CI, Circuit Court for the Sixth Judicial Circuit in and for Pinellas County, Florida
 - Administrator: Simpluris
 - Official site: https://etairoshealthsettlement.com/ ; claim form: https://etairoshealthsettlement.com/form/claim
-- Read from: https://etairoshealthsettlement.com/, https://etairoshealthsettlement.com/faq/, https://etairoshealthsettlement.com/dates/ on 2026-11-22
+- Read from: https://etairoshealthsettlement.com/, https://etairoshealthsettlement.com/faq/, https://etairoshealthsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/etairos-health/
 
 ## Auxilio Mutuo (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Reimbursement of documented, unreimbursed losses more likely than not caused by the Data Incident. | Flat $25 cash payment instead of loss reimbursement; no documentation needed. | Two years of one-bureau credit and medical monitoring with $1 million fraud protection; no claim needed.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -438,7 +438,7 @@
 
 ## American Renal Management (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the Data Incident, with third-party documentation. | Pro rata cash payment estimated at $100; no documentation needed. | Two years of one-bureau credit monitoring, dark web monitoring, identity theft insurance, and identity recovery. | Defendant implements and maintains information security practice changes.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -451,7 +451,7 @@
 
 ## Telmate (data breach)
 
-- Claim deadline: 2026-12-21 (29 days left on 2026-11-22)
+- Claim deadline: 2026-12-21 (28 days left on 2026-11-23)
 - Pays: Pro rata share of the remaining settlement fund; no documentation needed. | Up to $5,000 for unreimbursed out-of-pocket losses traceable to the incident, with third-party documentation.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -464,7 +464,7 @@
 
 ## Electronics for Imaging (data breach)
 
-- Claim deadline: 2026-12-22 (30 days left on 2026-11-22)
+- Claim deadline: 2026-12-22 (29 days left on 2026-11-23)
 - Pays: Three years of CyEx Identity Defense Complete with $1 million identity theft insurance. | Reimbursement of ordinary out-of-pocket expenses with proof like receipts. | Reimbursement for identity theft or fraud losses caused by the incident, with proof. | Up to four hours at $25/hour for time spent responding; no description needed. | Alternative one-time cash payment, expected $75, instead of other cash benefits; no proof required.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -472,12 +472,12 @@
 - Case: Hibbard, Nelson v. Electronics for Imaging, Inc., 217-2025-CV-00528, Superior Court of Merrimack County, New Hampshire
 - Administrator: Simpluris
 - Official site: https://efidatasettlement.com/ ; claim form: https://efidatasettlement.com/form/claim
-- Read from: https://efidatasettlement.com/, https://efidatasettlement.com/faq/, https://efidatasettlement.com/dates/ on 2026-11-22
+- Read from: https://efidatasettlement.com/, https://efidatasettlement.com/faq/, https://efidatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/electronics-for-imaging/
 
 ## TRC Staffing Services (data breach)
 
-- Claim deadline: 2026-12-22 (30 days left on 2026-11-22)
+- Claim deadline: 2026-12-22 (29 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses traceable to the Data Incident, up to $5,000, with reasonable documentation. | Up to four hours of lost time at $20 per hour, with a description of time spent. | Alternative pro rata cash payment up to $200, no documentation required, instead of loss/time claims.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -490,7 +490,7 @@
 
 ## Jefferson-Blount-St. Clair Mental Health Authority (data breach)
 
-- Claim deadline: 2026-12-23 (31 days left on 2026-11-22)
+- Claim deadline: 2026-12-23 (30 days left on 2026-11-23)
 - Pays: Reimbursement of documented losses; alternative to flat cash payment. | Flat cash payment, no documentation needed; alternative to documented losses. | All class members may claim credit monitoring services.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -498,12 +498,12 @@
 - Case: Meyer, et al. v. Jefferson-Blount-St. Clair Mental Health Authority, 01-CV-2026-901158.00, Circuit Court of Jefferson County, Alabama, Birmingham Division
 - Administrator: CPT Group
 - Official site: https://www.jbssettlement.com/ ; claim form: https://www.jbssettlement.com/Login
-- Read from: https://www.jbssettlement.com/, https://www.jbssettlement.com/Dates on 2026-11-22
+- Read from: https://www.jbssettlement.com/, https://www.jbssettlement.com/Dates on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/jefferson-blount-st-clair-mental-health-authority/
 
 ## Antigo Construction (data breach)
 
-- Claim deadline: 2026-12-24 (32 days left on 2026-11-22)
+- Claim deadline: 2026-12-24 (31 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses traceable to the breach, up to $3,000 combined with lost time. | Lost time at $25/hour up to 5 hours, with attestation. | Flat $100 cash instead of documented losses; no documentation. | Two years of three-bureau credit monitoring via activation code on the Notice; no claim needed.
 - Most cash: $3,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -516,7 +516,7 @@
 
 ## CBIZ Benefits & Insurance Services (data breach)
 
-- Claim deadline: 2026-12-24 (32 days left on 2026-11-22)
+- Claim deadline: 2026-12-24 (31 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses traceable to the Data Incident; documentation required. | Pro rata cash payment, estimated about $100, adjusted based on remaining funds; no losses needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: yes
@@ -524,12 +524,12 @@
 - Case: In re CBIZ Data Breach Litigation, 1:24-cv-01722-DCN, United States District Court for the Northern District of Ohio
 - Administrator: Simpluris
 - Official site: https://cbizdatabreachsettlement.com/ ; claim form: https://cbizdatabreachsettlement.com/form/claim
-- Read from: https://cbizdatabreachsettlement.com/, https://cbizdatabreachsettlement.com/faq/, https://cbizdatabreachsettlement.com/dates/ on 2026-11-22
+- Read from: https://cbizdatabreachsettlement.com/, https://cbizdatabreachsettlement.com/faq/, https://cbizdatabreachsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/cbiz-benefits-and-insurance-services/
 
 ## Arizona Labor Force (data breach)
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: Pro rata share of net fund, expected about $25; no proof needed.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -537,12 +537,12 @@
 - Case: Daniel Bozek, et al. v. Arizona Labor Force, Inc., et al., 2:24-cv-00210-SHD, District Court for the District of Arizona
 - Administrator: Simpluris
 - Official site: https://azlaborforcesettlement.com/ ; claim form: https://azlaborforcesettlement.com/form/claim
-- Read from: https://azlaborforcesettlement.com/, https://azlaborforcesettlement.com/faq/, https://azlaborforcesettlement.com/dates/ on 2026-11-22
+- Read from: https://azlaborforcesettlement.com/, https://azlaborforcesettlement.com/faq/, https://azlaborforcesettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/arizona-labor-force/
 
 ## Chimienti & Associates (data breach)
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: Two years of CyEx Financial Shield Complete credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with receipts or proof. | Alternative pro rata cash payment, no proof needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -550,12 +550,12 @@
 - Case: David Fonseca v. Chimienti & Associates, VCU315048, Superior Court of Tulare County, California
 - Administrator: Simpluris
 - Official site: https://chimientidatasettlement.com/ ; claim form: https://chimientidatasettlement.com/form/claim
-- Read from: https://chimientidatasettlement.com/, https://chimientidatasettlement.com/faq/, https://chimientidatasettlement.com/dates/ on 2026-11-22
+- Read from: https://chimientidatasettlement.com/, https://chimientidatasettlement.com/faq/, https://chimientidatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/chimienti-and-associates/
 
 ## Grayback Forestry (data breach)
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses caused by the breach, up to $5,000. | Up to five hours at $25/hour for time spent responding to the breach. | One-time $65 payment instead of losses or lost time; no documentation needed. | Three years of CyEx Financial Shield Complete with $1 million fraud insurance.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -563,12 +563,12 @@
 - Case: Mull v. Grayback Forestry, Inc., 26CV37687, Josephine County Circuit Court, State of Oregon
 - Administrator: Simpluris
 - Official site: https://graybackforestrydatasettlement.com/ ; claim form: https://graybackforestrydatasettlement.com/form/claim
-- Read from: https://graybackforestrydatasettlement.com/, https://graybackforestrydatasettlement.com/faq/, https://graybackforestrydatasettlement.com/dates/ on 2026-11-22
+- Read from: https://graybackforestrydatasettlement.com/, https://graybackforestrydatasettlement.com/faq/, https://graybackforestrydatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/grayback-forestry/
 
 ## Missouri Delta Medical Center (privacy (tracking))
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: $20 cash payment for class members who file a valid claim. | Code to enroll in Privacy Shield Pro, provided automatically on the notice.
 - Most cash: $20; option without receipts: yes
 - Needs the code on the notice: yes
@@ -581,7 +581,7 @@
 
 ## Prime Healthcare Services (privacy (tracking))
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: Patient Portal Subclass Members get a one-time $20 payment by submitting a valid claim form. | Patient Portal and Email Subclass Members automatically get one year of CyEx Medical Shield Pro; activate code from notice. | Prime will not use Google Analytics or Meta Pixel on its websites for five years, with annual audits.
 - Most cash: $20; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -594,7 +594,7 @@
 
 ## Sherr Puttmann Akins Lamb PC (data breach)
 
-- Claim deadline: 2026-12-28 (36 days left on 2026-11-22)
+- Claim deadline: 2026-12-28 (35 days left on 2026-11-23)
 - Pays: Two years of CyEx Identity Defense Complete credit monitoring with $1 million identity theft insurance. | Reimbursement of documented out-of-pocket expenses from the incident, with receipts. | Reimbursement of documented identity theft or fraud losses likely caused by the incident. | Up to four hours at $15/hour for time spent responding; brief description required; counts toward $100 cap. | One-time cash payment instead of other benefits, no proof needed.
 - Most cash: $900; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -602,12 +602,12 @@
 - Case: Freeman, et al. v. Sherr Puttmann Akins Lamb PC, 2024CV33283, 2nd District Court of Denver, Colorado
 - Administrator: Simpluris
 - Official site: https://spaldataincident.com/ ; claim form: https://spaldataincident.com/form/claim
-- Read from: https://spaldataincident.com/, https://spaldataincident.com/faq/, https://spaldataincident.com/dates/ on 2026-11-22
+- Read from: https://spaldataincident.com/, https://spaldataincident.com/faq/, https://spaldataincident.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/sherr-puttmann-akins-lamb-pc/
 
 ## Cardiology Associates of Mobile (data breach)
 
-- Claim deadline: 2026-12-29 (37 days left on 2026-11-22)
+- Claim deadline: 2026-12-29 (36 days left on 2026-11-23)
 - Pays: Reimbursement up to $4,000 for documented out-of-pocket losses from the Data Incident. | Pro rata cash payment; no documentation required. | 24 months of three-bureau credit and identity theft monitoring with $1,000,000 insurance. | CAM will improve security measures, paid separately.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -620,7 +620,7 @@
 
 ## Sirva Relocation (data breach)
 
-- Claim deadline: 2026-12-29 (37 days left on 2026-11-22)
+- Claim deadline: 2026-12-29 (36 days left on 2026-11-23)
 - Pays: Two years of CyEx Financial Shield Complete credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket expenses from the Incident, with receipts. | Reimbursement of documented identity theft or fraud losses probably caused by the Incident. | Group 1 (SSN) members may claim about $50 instead of loss reimbursement; no proof needed. | Group 2 members may claim about $10 instead of loss reimbursement; no proof needed.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -628,12 +628,12 @@
 - Case: Rosalyn Rivera, individually and on behalf of all others similarly situated v. Sirva Relocation, LLC, 2026CH000111, Circuit Court of Illinois, DuPage County
 - Administrator: Simpluris
 - Official site: https://sirvadatasettlement.com/ ; claim form: https://sirvadatasettlement.com/form/claim
-- Read from: https://sirvadatasettlement.com/, https://sirvadatasettlement.com/faq/, https://sirvadatasettlement.com/dates/ on 2026-11-22
+- Read from: https://sirvadatasettlement.com/, https://sirvadatasettlement.com/faq/, https://sirvadatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/sirva-relocation/
 
 ## Bauer Built (data breach)
 
-- Claim deadline: 2026-12-31 (39 days left on 2026-11-22)
+- Claim deadline: 2026-12-31 (38 days left on 2026-11-23)
 - Pays: Two years of three-bureau credit monitoring with $1,000,000 identity theft protection. | Up to $500 for out-of-pocket expenses from the incident, with receipts. | Up to $5,000 for unreimbursed fraud or identity theft losses, with proof. | Up to 4 hours at $25/hour with short description; counts toward $500 cap. | One-time $45 payment instead of Option 1 benefits; no proof needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: yes
@@ -641,12 +641,12 @@
 - Case: Anderson v. Bauer Built Inc. d/b/a Bauer Built Tire & Service, 2026CH05015, Circuit Court of Cook County, Illinois, Chancery Division
 - Administrator: Simpluris
 - Official site: https://bauersecurityincident.com/ ; claim form: https://bauersecurityincident.com/form/claim
-- Read from: https://bauersecurityincident.com/, https://bauersecurityincident.com/faq/, https://bauersecurityincident.com/dates/ on 2026-11-22
+- Read from: https://bauersecurityincident.com/, https://bauersecurityincident.com/faq/, https://bauersecurityincident.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/bauer-built/
 
 ## Roseland Community Hospital Association (data breach)
 
-- Claim deadline: 2026-12-31 (39 days left on 2026-11-22)
+- Claim deadline: 2026-12-31 (38 days left on 2026-11-23)
 - Pays: Reimbursement of unreimbursed losses from the Data Incident up to $5,000 with reasonable documentation and attestation. | Pro rata cash payment estimated at $50; no documentation required. | One year of Medical Records Monitoring (CyEx Medical Shield Complete) with identity theft insurance.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -659,7 +659,7 @@
 
 ## Sonic Healthcare U.S.A. (data breach)
 
-- Claim deadline: 2027-01-04 (43 days left on 2026-11-22)
+- Claim deadline: 2027-01-04 (42 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses traceable to the incident, with documentation and attestation. | Up to 10 hours of documented time remedying misuse at $25/hour, part of out-of-pocket claim. | Alternative cash payment estimated at $50 instead of out-of-pocket losses; no documentation needed. | Two years of CyEx Medical Shield Pro medical information monitoring.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -673,7 +673,7 @@
 
 ## Riverside Resort & Casino (data breach)
 
-- Claim deadline: 2027-01-04 (43 days left on 2026-11-22)
+- Claim deadline: 2027-01-04 (42 days left on 2026-11-23)
 - Pays: One year of CyEx Financial Shield Total credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof such as receipts. | Up to three hours at $20/hour for time spent responding to the Data Incident, within the $3,000 cap. | Alternative one-time cash payment instead of other payments, no proof needed; $75 California, $50 elsewhere, may adjust.
 - Most cash: $3,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -681,12 +681,12 @@
 - Case: Dapello, et al. v. Riverside Resort & Casino, Inc. and Riverside Resort & Casino, LLC, 2026CV000097, Circuit Court for Columbia County, Wisconsin
 - Administrator: Simpluris
 - Official site: https://riversidedatasettlement.com/ ; claim form: https://riversidedatasettlement.com/form/claim
-- Read from: https://riversidedatasettlement.com/, https://riversidedatasettlement.com/faq/, https://riversidedatasettlement.com/dates/ on 2026-11-22
+- Read from: https://riversidedatasettlement.com/, https://riversidedatasettlement.com/faq/, https://riversidedatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/riverside-resort-and-casino/
 
 ## Red Coats (data breach)
 
-- Claim deadline: 2027-01-07 (46 days left on 2026-11-22)
+- Claim deadline: 2027-01-07 (45 days left on 2026-11-23)
 - Pays: One year of CyEx Financial Shield Complete credit monitoring with $1 million fraud insurance. | Reimbursement of documented ordinary out-of-pocket losses up to $2,000 with receipts. | Extraordinary identity theft/fraud losses up to $3,000 with proof likely caused by the incident. | Up to four hours at $25/hour for time spent responding; brief description required.
 - Most cash: $3,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -694,12 +694,12 @@
 - Case: Rush et al. v. Red Coats, Inc., C-15-CV-26-001098, Circuit Court for Montgomery County, Maryland
 - Administrator: Simpluris
 - Official site: https://redcoatssettlement.com/ ; claim form: https://redcoatssettlement.com/form/claim
-- Read from: https://redcoatssettlement.com/, https://redcoatssettlement.com/faq/, https://redcoatssettlement.com/dates/ on 2026-11-22
+- Read from: https://redcoatssettlement.com/, https://redcoatssettlement.com/faq/, https://redcoatssettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/red-coats/
 
 ## Washington Gastroenterology (data breach)
 
-- Claim deadline: 2027-01-10 (49 days left on 2026-11-22)
+- Claim deadline: 2027-01-10 (48 days left on 2026-11-23)
 - Pays: Reimbursement of documented losses related to the Data Incident, up to $4,000. | Pro rata cash payment estimated at $75, no documentation needed, instead of documented losses. | Two years of one-bureau medical record and credit monitoring.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -712,7 +712,7 @@
 
 ## Compumedics USA (data breach)
 
-- Claim deadline: 2027-01-12 (51 days left on 2026-11-22)
+- Claim deadline: 2027-01-12 (50 days left on 2026-11-23)
 - Pays: Up to $2,500 for documented identity theft or fraud losses from the Data Incident; documentation required. | Pro rata flat cash payment from $500,000 Cash Payments Fund, instead of documented losses; no documentation needed. | One year of free Medical Data Monitoring automatically; activation code on your notice.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -725,7 +725,7 @@
 
 ## New York School of Interior Design (data breach)
 
-- Claim deadline: 2027-01-12 (51 days left on 2026-11-22)
+- Claim deadline: 2027-01-12 (50 days left on 2026-11-23)
 - Pays: Three years of three-bureau credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket expenses from the Data Incident, with receipts. | Reimbursement of identity theft or fraud losses likely caused by the incident, with proof. | Up to four hours at $25/hour for time spent responding; counts toward $500 cap. | One-time $50 payment instead of other cash options; no proof required.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -733,12 +733,12 @@
 - Case: Priti Patel v. New York School of Interior Design, Index No. 156767/2026, Supreme Court for New York County, New York
 - Administrator: Simpluris
 - Official site: https://nysiddatasettlement.com/ ; claim form: https://nysiddatasettlement.com/form/claim
-- Read from: https://nysiddatasettlement.com/, https://nysiddatasettlement.com/faq/, https://nysiddatasettlement.com/dates/ on 2026-11-22
+- Read from: https://nysiddatasettlement.com/, https://nysiddatasettlement.com/faq/, https://nysiddatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/new-york-school-of-interior-design/
 
 ## Lowe Engineers (data breach)
 
-- Claim deadline: 2027-01-13 (52 days left on 2026-11-22)
+- Claim deadline: 2027-01-13 (51 days left on 2026-11-23)
 - Pays: Two years of CyEx Financial Shield Total credit monitoring with fraud insurance. | Reimbursement of documented out-of-pocket expenses from the Data Incident, with receipts. | Reimbursement of documented identity theft or fraud losses likely caused by the incident. | One-time $50 payment instead of other cash options, no proof needed.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -746,12 +746,12 @@
 - Case: Galdun v. Lowe Engineers, LLC, 26CV003778, Superior Court of Fulton County, Georgia
 - Administrator: Simpluris
 - Official site: https://lowedataincident.com/ ; claim form: https://lowedataincident.com/form/claim
-- Read from: https://lowedataincident.com/, https://lowedataincident.com/faq/, https://lowedataincident.com/dates/ on 2026-11-22
+- Read from: https://lowedataincident.com/, https://lowedataincident.com/faq/, https://lowedataincident.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/lowe-engineers/
 
 ## Renkim Corporation (data breach)
 
-- Claim deadline: 2027-01-13 (52 days left on 2026-11-22)
+- Claim deadline: 2027-01-13 (51 days left on 2026-11-23)
 - Pays: Three years of CyEx Financial Shield Complete credit monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof. | Up to three hours at $20/hour for time spent responding; attestation required. | One-time $40 payment instead of lost time; no proof needed.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -759,12 +759,12 @@
 - Case: Echo Dawn Cundiff, et al. v. Renkim Corporation, 26-010626-CZ, The Circuit Court for Wayne County, Michigan
 - Administrator: Simpluris
 - Official site: https://renkimdatasettlement.com/ ; claim form: https://renkimdatasettlement.com/form/claim
-- Read from: https://renkimdatasettlement.com/, https://renkimdatasettlement.com/faq/, https://renkimdatasettlement.com/dates/ on 2026-11-22
+- Read from: https://renkimdatasettlement.com/, https://renkimdatasettlement.com/faq/, https://renkimdatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/renkim-corporation/
 
 ## Woodloch Pines (data breach)
 
-- Claim deadline: 2027-01-13 (52 days left on 2026-11-22)
+- Claim deadline: 2027-01-13 (51 days left on 2026-11-23)
 - Pays: Two years of CyEx Financial Shield Complete credit monitoring with $1 million identity theft insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof like receipts. | One-time $60 cash payment instead of documented losses; no proof needed.
 - Most cash: $3,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -772,12 +772,12 @@
 - Case: In re: Woodloch Pines Data Breach Litigation, 594-CV-2024, Court of Common Pleas of Wayne County, Pennsylvania
 - Administrator: Simpluris
 - Official site: https://woodlochsettlement.com/ ; claim form: https://woodlochsettlement.com/form/claim
-- Read from: https://woodlochsettlement.com/, https://woodlochsettlement.com/faq/, https://woodlochsettlement.com/dates/ on 2026-11-22
+- Read from: https://woodlochsettlement.com/, https://woodlochsettlement.com/faq/, https://woodlochsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/woodloch-pines/
 
 ## Blue Ridge Rural Water Company (data breach)
 
-- Claim deadline: 2027-01-14 (53 days left on 2026-11-22)
+- Claim deadline: 2027-01-14 (52 days left on 2026-11-23)
 - Pays: Two years of three-bureau credit monitoring with $1 million fraud insurance; no proof needed. | Reimbursement of documented extraordinary losses like identity theft or fraud, up to $2,500, with proof. | Reimbursement of documented ordinary expenses like credit fees, ID replacement, postage, up to $500, with receipts. | One-time $50 cash payment instead of loss reimbursement; no proof required.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -785,12 +785,12 @@
 - Case: Lawrence v. Blue Ridge Rural Water Company, Inc., 2025-CP-23-03210, South Carolina Court of Common Pleas for Greenville County
 - Administrator: Simpluris
 - Official site: https://blueridgedatasettlement.com/ ; claim form: https://blueridgedatasettlement.com/form/claim
-- Read from: https://blueridgedatasettlement.com/, https://blueridgedatasettlement.com/faq/, https://blueridgedatasettlement.com/dates/ on 2026-11-22
+- Read from: https://blueridgedatasettlement.com/, https://blueridgedatasettlement.com/faq/, https://blueridgedatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/blue-ridge-rural-water-company/
 
 ## Case Foods (data breach)
 
-- Claim deadline: 2027-01-17 (56 days left on 2026-11-22)
+- Claim deadline: 2027-01-17 (55 days left on 2026-11-23)
 - Pays: $45 cash payment with no proof required, instead of documented loss reimbursement. | Reimbursement of documented out-of-pocket losses from the breach, up to $2,000, with supporting documentation. | Two years of one-bureau credit monitoring for those who file a valid claim.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -798,12 +798,12 @@
 - Case: Butler v. Case Foods, Inc., 25CVS003530-480, North Carolina Superior Court for Iredell County
 - Administrator: Simpluris
 - Official site: https://cfisettlement.com/ ; claim form: https://cfisettlement.com/form/claim
-- Read from: https://cfisettlement.com/, https://cfisettlement.com/faq/, https://cfisettlement.com/dates/ on 2026-11-22
+- Read from: https://cfisettlement.com/, https://cfisettlement.com/faq/, https://cfisettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/case-foods/
 
 ## Vida Y Salud-Health Systems (data breach)
 
-- Claim deadline: 2027-01-18 (57 days left on 2026-11-22)
+- Claim deadline: 2027-01-18 (56 days left on 2026-11-23)
 - Pays: Two years of CyEx Medical Shield Complete with $1 million medical identity theft insurance. | Reimbursement of documented out-of-pocket losses from the incident, with proof like receipts. | Up to four hours at $20 per hour for time spent responding to the incident. | One-time $50 payment instead of other cash payments; no proof needed.
 - Most cash: $3,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -811,12 +811,12 @@
 - Case: Murray, et al. v. Vida Y Salud-Health Systems, Inc., 26-01-15726-ZCV, 293rd District Court for Zavala County, Texas
 - Administrator: Simpluris
 - Official site: https://vsidatasettlement.com/ ; claim form: https://vsidatasettlement.com/form/claim
-- Read from: https://vsidatasettlement.com/, https://vsidatasettlement.com/faq/, https://vsidatasettlement.com/dates/ on 2026-11-22
+- Read from: https://vsidatasettlement.com/, https://vsidatasettlement.com/faq/, https://vsidatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/vida-y-salud-health-systems/
 
 ## DaVita (data breach)
 
-- Claim deadline: 2027-01-19 (58 days left on 2026-11-22)
+- Claim deadline: 2027-01-19 (57 days left on 2026-11-23)
 - Pays: Pro rata cash payment, estimated $50. | 3 years of one-bureau credit monitoring and identity theft restoration. | Reimbursement of documented out-of-pocket losses up to $2,500.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -829,7 +829,7 @@
 
 ## Hampton Regional Medical Center (data breach)
 
-- Claim deadline: 2027-01-19 (58 days left on 2026-11-22)
+- Claim deadline: 2027-01-19 (57 days left on 2026-11-23)
 - Pays: Reimbursement up to $5,000 for documented losses related to the Data Incident, with reasonable documentation. | Alternative estimated $20 cash payment, adjusted pro rata; no documentation needed. | One year of one-bureau credit monitoring with medical identity monitoring and insurance, in addition to cash.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -842,7 +842,7 @@
 
 ## Kisco Senior Living (data breach)
 
-- Claim deadline: 2027-01-19 (58 days left on 2026-11-22)
+- Claim deadline: 2027-01-19 (57 days left on 2026-11-23)
 - Pays: Credit monitoring services for approved claims. | Reimbursement of ordinary out-of-pocket losses. | Reimbursement of extraordinary out-of-pocket losses and attested time. | $250 payment for California residents at time of the incident. | Residual cash payments from remaining fund.
 - Most cash: $250; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -850,12 +850,12 @@
 - Case: Gois, et al. v. Kisco Senior Living, LLC, 24-cv-751-BJC-AHG, United States District Court, Southern District of California
 - Administrator: CPT Group
 - Official site: https://www.kiscosettlement.com/ ; claim form: https://www.kiscosettlement.com/Login
-- Read from: https://www.kiscosettlement.com/, https://www.kiscosettlement.com/Dates on 2026-11-22
+- Read from: https://www.kiscosettlement.com/, https://www.kiscosettlement.com/Dates on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/kisco-senior-living/
 
 ## Warrior Met Coal (data breach)
 
-- Claim deadline: 2027-01-21 (60 days left on 2026-11-22)
+- Claim deadline: 2027-01-21 (59 days left on 2026-11-23)
 - Pays: $15 per hour up to four hours for time spent on the incident; describe time, no documentation. | Up to $250 for documented ordinary out-of-pocket costs. | Up to $2,500 for documented, unreimbursed fraud or misuse losses. | Flat $25 payment instead of other monetary benefits. | One year of three-bureau credit monitoring and identity-theft protection.
 - Most cash: $2,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -868,7 +868,7 @@
 
 ## Columbia University (data breach)
 
-- Claim deadline: 2027-01-21 (60 days left on 2026-11-22)
+- Claim deadline: 2027-01-21 (59 days left on 2026-11-23)
 - Pays: Reimbursement of documented losses caused by the Cyberattack, with supporting documentation. | Alternative pro rata cash payment from remaining fund instead of documented losses. | Two years of three-bureau credit monitoring, dark web monitoring, identity insurance and recovery services. | Columbia maintains additional security measures for 3 years.
 - Most cash: $8,500; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -876,12 +876,12 @@
 - Case: In re Columbia University Data Breach Litigation, 1:25-cv-05541 (PKC), United States District Court for the Southern District of New York
 - Administrator: not stated
 - Official site: https://columbiauniversitydatasettlement.com/ ; claim form: https://columbiauniversitydatasettlement.com/submit-claim
-- Read from: https://columbiauniversitydatasettlement.com/, https://columbiauniversitydatasettlement.com/faqs on 2026-11-22
+- Read from: https://columbiauniversitydatasettlement.com/, https://columbiauniversitydatasettlement.com/faqs on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/columbia-university/
 
 ## Warner Music Group Corp. (data breach)
 
-- Claim deadline: 2027-01-22 (61 days left on 2026-11-22)
+- Claim deadline: 2027-01-22 (60 days left on 2026-11-23)
 - Pays: Pro rata cash payment, estimated $50 per Settlement Class Member; no documentation needed. | California Subclass members get a double share, estimated $100.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -889,12 +889,12 @@
 - Case: In re Warner Music Group Data Breach, 1:20-cv-07473-PGG, United States District Court for the Southern District of New York
 - Administrator: EisnerAmper
 - Official site: https://www.wmgdatasettlement.com/ ; claim form: https://wmgdatasettlement.pnclassaction.com/
-- Read from: https://www.wmgdatasettlement.com/, https://www.wmgdatasettlement.com/faqs/ on 2026-11-22
+- Read from: https://www.wmgdatasettlement.com/, https://www.wmgdatasettlement.com/faqs/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/warner-music-group-corp/
 
 ## The Cornwell Quality Tools Company (data breach)
 
-- Claim deadline: 2027-01-25 (64 days left on 2026-11-22)
+- Claim deadline: 2027-01-25 (63 days left on 2026-11-23)
 - Pays: Two years of three-bureau CyEx Financial Shield monitoring with $1 million identity theft insurance. | Reimbursement of documented out-of-pocket losses traceable to the incident, up to $5,000 total including lost time. | $20/hour for up to 3 hours of time spent, with attestation. | $50 alternative cash payment instead of loss/time reimbursement; no documentation needed. | CQT will implement cybersecurity business practice enhancements.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -902,12 +902,12 @@
 - Case: Cox, et al. v. The Cornwell Quality Tools Company, 2026CIV0649, The Court of Common Pleas Medina County, Ohio
 - Administrator: Simpluris
 - Official site: https://cqtcybersettlement.com/ ; claim form: https://cqtcybersettlement.com/form/claim
-- Read from: https://cqtcybersettlement.com/, https://cqtcybersettlement.com/faq/, https://cqtcybersettlement.com/dates/ on 2026-11-22
+- Read from: https://cqtcybersettlement.com/, https://cqtcybersettlement.com/faq/, https://cqtcybersettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/the-cornwell-quality-tools-company/
 
 ## Dental Intelligence (privacy (tracking))
 
-- Claim deadline: 2027-01-25 (64 days left on 2026-11-22)
+- Claim deadline: 2027-01-25 (63 days left on 2026-11-23)
 - Pays: Pro rata cash payment for class members who submit a timely, valid claim form. | Defendant implemented measures to stop sharing LocalMed Portal information with Google.
 - Most cash: not stated; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -915,12 +915,12 @@
 - Case: Grivetti et al. v. Dental Intelligence, Inc., 1:25-cv-02464, United States District Court for the Northern District of Illinois
 - Administrator: Simpluris
 - Official site: https://disettlement.com/ ; claim form: https://disettlement.com/form/claim
-- Read from: https://disettlement.com/, https://disettlement.com/faq/, https://disettlement.com/dates/ on 2026-11-22
+- Read from: https://disettlement.com/, https://disettlement.com/faq/, https://disettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/dental-intelligence-privacy/
 
 ## Doctors Imaging Group (data breach)
 
-- Claim deadline: 2027-01-26 (65 days left on 2026-11-22)
+- Claim deadline: 2027-01-26 (64 days left on 2026-11-23)
 - Pays: Up to $2,500 for documented losses fairly traceable to the Data Incident; documentation required. | Two years of free medical data monitoring.
 - Most cash: $2,500; option without receipts: no
 - Needs the code on the notice: not stated
@@ -933,7 +933,7 @@
 
 ## Academy Mortgage Corporation (data breach)
 
-- Claim deadline: 2027-01-27 (66 days left on 2026-11-22)
+- Claim deadline: 2027-01-27 (65 days left on 2026-11-23)
 - Pays: Reimbursement up to $3,000 for documented unreimbursed losses related to the Data Incident; documentation required. | One-time pro rata cash payment, no documentation; California residents get double with residency attestation. | Three years of single-bureau credit monitoring, dark web monitoring, identity theft insurance, and identity recovery services. | Defendant made information security enhancements.
 - Most cash: $3,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -946,7 +946,7 @@
 
 ## The Merchant of Tennis (data breach)
 
-- Claim deadline: 2027-01-27 (66 days left on 2026-11-22)
+- Claim deadline: 2027-01-27 (65 days left on 2026-11-23)
 - Pays: Automatic cash payment, estimated $45 for California residents in February 2024; Non-Employees must file a claim. | Automatic $15 cash payment for class members from other states; Non-Employees must file a claim. | Two years of CyEx Identity Defense credit monitoring with $1 million fraud insurance. | Reimbursement up to $2,000 for documented out-of-pocket losses caused by the incident; proof required.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -954,12 +954,12 @@
 - Case: Victor Estrada v. The Merchant of Tennis, Inc. et al., 24STCV09656, Superior Court of Los Angeles County, California
 - Administrator: Simpluris
 - Official site: https://usmsettlement.com/ ; claim form: https://usmsettlement.com/form/claim
-- Read from: https://usmsettlement.com/, https://usmsettlement.com/faq/, https://usmsettlement.com/dates/ on 2026-11-22
+- Read from: https://usmsettlement.com/, https://usmsettlement.com/faq/, https://usmsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/the-merchant-of-tennis/
 
 ## DotHouse Health (data breach)
 
-- Claim deadline: 2027-01-29 (68 days left on 2026-11-22)
+- Claim deadline: 2027-01-29 (67 days left on 2026-11-23)
 - Pays: Two years of CyEx Medical Shield Complete monitoring with $1 million fraud insurance. | Reimbursement of documented out-of-pocket losses from the Data Incident, with proof. | One-time pro rata cash payment, estimated $40, no proof needed; alternative to documented losses.
 - Most cash: $2,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -967,12 +967,12 @@
 - Case: Peter Samiotes, et al. v. DotHouse Health, Inc., 2584CV01999, Superior Court for Suffolk County, Massachusetts
 - Administrator: Simpluris
 - Official site: https://dothousedatasettlement.com/ ; claim form: https://dothousedatasettlement.com/form/claim
-- Read from: https://dothousedatasettlement.com/, https://dothousedatasettlement.com/faq/, https://dothousedatasettlement.com/dates/ on 2026-11-22
+- Read from: https://dothousedatasettlement.com/, https://dothousedatasettlement.com/faq/, https://dothousedatasettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/dothouse-health/
 
 ## Johnson Controls (data breach)
 
-- Claim deadline: 2027-02-01 (71 days left on 2026-11-22)
+- Claim deadline: 2027-02-01 (70 days left on 2026-11-23)
 - Pays: Reimbursement up to $5,000 for documented losses related to the Data Incident; documentation required. | Alternate pro rata cash payment estimated at $50; no documentation needed. | Two years of one-bureau credit monitoring with real-time alerts and $1,000,000 identity theft insurance.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -985,7 +985,7 @@
 
 ## Yuma Regional Medical Center (data breach)
 
-- Claim deadline: 2027-02-01 (71 days left on 2026-11-22)
+- Claim deadline: 2027-02-01 (70 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the Data Incident, with third-party proof. | One-time pro rata cash payment from remaining fund; no proof needed. | Automatic one year of medical data monitoring with $1,000,000 insurance coverage. | YRMC committed over $750,000 to data security enhancements.
 - Most cash: $4,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -993,12 +993,12 @@
 - Case: Dillon Clarke, et al. v. Yuma Regional Medical Center, 2:22-cv-01061-PHX-SMB, United States District Court for the District of Arizona
 - Administrator: Eisner Advisory Group
 - Official site: https://www.yumasettlement.com/ ; claim form: https://yumasettlement.pnclassaction.com/
-- Read from: https://www.yumasettlement.com/, https://www.yumasettlement.com/faqs/ on 2026-11-22
+- Read from: https://www.yumasettlement.com/, https://www.yumasettlement.com/faqs/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/yuma-regional-medical-center/
 
 ## International Coffee & Tea (data breach)
 
-- Claim deadline: 2027-02-10 (80 days left on 2026-11-22)
+- Claim deadline: 2027-02-10 (79 days left on 2026-11-23)
 - Pays: Reimbursement of documented out-of-pocket losses from the incident; receipts or proof required. | One-time cash payment instead of documented losses, expected $25, no proof needed. | California residents get extra payment, estimated $75; sworn attestation of residency suffices. | One year of CyEx Financial Shield Complete with fraud insurance for all class members. | International Coffee implements $420,000 in data security enhancements.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -1006,12 +1006,12 @@
 - Case: Aguilar v. International Coffee & Tea, LLC, 25STCV00002, Superior Court for Los Angeles County, California
 - Administrator: Simpluris
 - Official site: https://internationalcoffeesettlement.com/ ; claim form: https://internationalcoffeesettlement.com/form/claim
-- Read from: https://internationalcoffeesettlement.com/, https://internationalcoffeesettlement.com/faq/, https://internationalcoffeesettlement.com/dates/ on 2026-11-22
+- Read from: https://internationalcoffeesettlement.com/, https://internationalcoffeesettlement.com/faq/, https://internationalcoffeesettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/international-coffee-and-tea/
 
 ## Covenant Health (data breach)
 
-- Claim deadline: 2027-02-11 (81 days left on 2026-11-22)
+- Claim deadline: 2027-02-11 (80 days left on 2026-11-23)
 - Pays: Up to $5,000 for documented, unreimbursed losses from the Data Incident; requires reasonable third-party documentation. | Pro rata cash payment estimated at $75; no documentation needed. | Two years of CyEx Medical Shield Complete credit monitoring, automatically provided. | Defendants' security enhancements to systems.
 - Most cash: $5,000; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -1024,7 +1024,7 @@
 
 ## AMISUB (SFH) (privacy (tracking))
 
-- Claim deadline: 2027-03-15 (113 days left on 2026-11-22)
+- Claim deadline: 2027-03-15 (112 days left on 2026-11-23)
 - Pays: One-time $16 cash payment; no proof needed. | Two years of CyEx Privacy Shield Pro privacy protection using enrollment code sent by postcard.
 - Most cash: $16; option without receipts: yes
 - Needs the code on the notice: not stated
@@ -1032,5 +1032,5 @@
 - Case: Jane Doe v. AMISUB (SFH), Inc. d/b/a Saint Francis Hospital-Memphis, CT-3086-23, Circuit Court for Shelby County, Tennessee
 - Administrator: Simpluris
 - Official site: https://tenetpixelsettlement.com/ ; claim form: https://tenetpixelsettlement.com/form/claim
-- Read from: https://tenetpixelsettlement.com/, https://tenetpixelsettlement.com/faq/, https://tenetpixelsettlement.com/dates/ on 2026-11-22
+- Read from: https://tenetpixelsettlement.com/, https://tenetpixelsettlement.com/faq/, https://tenetpixelsettlement.com/dates/ on 2026-11-23
 - Page: https://breach-to-claim.vercel.app/s/amisub-sfh-privacy/
