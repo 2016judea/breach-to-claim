@@ -9,7 +9,7 @@ Copy from here. Pattern and rejection history: `~/Desktop/workspace/small-busine
 | Publisher | Brick and Mortar AI LLC, 1651 Eleanor Ave, Saint Paul, MN 55116 |
 | Website / docs | https://breach-to-claim.vercel.app/connect/ |
 | Privacy | https://breach-to-claim.vercel.app/privacy/ |
-| Support | https://github.com/2016judea/breach-to-claim/issues |
+| Support | https://brickandmortar.dev/contact (changed 2026-11-22: directory listings never point at GitHub issues) |
 | Source | https://github.com/2016judea/breach-to-claim |
 | Icon 512×512 | https://breach-to-claim.vercel.app/icon.png |
 | Composer icon (stroke-only, currentColor) | https://breach-to-claim.vercel.app/icon-composer.svg |
@@ -127,3 +127,20 @@ by the new `scripts/build_chatgpt_plugin.py` (pattern: appeal-draft's; tools and
 - **Submitted** with the same six attestations as heistclips and Appeal the Denial.
 
 **Official MCP Registry (2026-11-22):** `io.github.2016judea/breach-to-claim` 0.1.0, remote `https://breach-to-claim.vercel.app/mcp`; `.github/workflows/mcp-registry.yml` republishes on every `server.json` version bump. Check: `curl "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.2016judea/breach-to-claim"`.
+
+## xAI marketplace (Grok Bot, Cursor, Grok) — SUBMITTED 2026-11-23
+
+Filed 2026-11-23T02:27:34Z at x.ai/bot/marketplace/submit-a-plugin; the page answered "Thanks for submitting your plugin!".
+Status: pending review (xAI replies by email to the work address). Destinations ticked: Grok (coming soon), Grok Bot,
+Cursor. Org Brick and Mortar AI LLC, handle `brickandmortar`. Name Breach to Claim. Website https://breach-to-claim.vercel.app/connect/.
+Logo https://breach-to-claim.vercel.app/icon-solid.png (solid plate, 1:1). MCP URL https://breach-to-claim.vercel.app/mcp (the URL, never a repo). Cursor's Publisher Terms §3.1
+bar charging users "directly or indirectly" through the plugin; the connector itself is free.
+
+Description (545 chars):
+
+> Ask whether a data-breach class-action settlement owes you money. Breach to Claim checks the company named on your breach letter against every open US data-breach and privacy settlement, read off its official court-authorized website: the claim deadline and days left, what it pays, who is in the class in the settlement's own words, whether the code on your notice is needed, the case and court, and the official claim site. It never files a claim and never asks for a Social Security number, notice code or name. Independent; not legal advice.
+
+Testing (554 chars):
+
+> No account or credentials needed. Add the MCP URL as a remote server, then try: 1) "I got a letter saying my data was in the Columbia University breach. Am I owed money?" -> find_breach_settlement: claim deadline Jan 21, 2027, documented losses up to $8,500 or a cash payment, official claim site. 2) "Which data breach settlements close this week?" -> list_open_breach_settlements with deadlines. 3) "Any data breach settlements I can claim without receipts?" -> settlements with a no-documents option. Counts change daily as settlements open and close.
+
