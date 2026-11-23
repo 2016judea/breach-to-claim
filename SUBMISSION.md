@@ -125,3 +125,5 @@ by the new `scripts/build_chatgpt_plugin.py` (pattern: appeal-draft's; tools and
   stitched with ffmpeg. This added a developer-mode plugin "Breach to Claim" to his ChatGPT. Demo URL and release
   notes were entered in the portal, not the ZIP.
 - **Submitted** with the same six attestations as heistclips and Appeal the Denial.
+
+**Official MCP Registry (2026-11-22):** `io.github.2016judea/breach-to-claim` 0.1.0, remote `https://breach-to-claim.vercel.app/mcp`; `.github/workflows/mcp-registry.yml` republishes on every `server.json` version bump. Check: `curl "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.2016judea/breach-to-claim"`.
