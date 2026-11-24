@@ -140,6 +140,12 @@ function detail(s, a, today) {
   };
 }
 
+// The company a search found no open settlement for, so we can see which breaches people ask about
+// that we don't track (audit 2026-11-24). Only the company name, lowercased; anything that looks like an
+// email, a long number or a code is dropped, and it is cut to 60 characters.
+export const missOf = (s) => String(s || "").toLowerCase().replace(/\S*@\S*/g, " ").replace(/[^a-z0-9&.,' -]/g, " ")
+  .replace(/\S*\d{4,}\S*/g, " ").replace(/\s+/g, " ").trim().slice(0, 60) || undefined;
+
 export function callTool(name, args = {}, today = new Date().toISOString().slice(0, 10)) {
   const data = loadData();
   if (name === "find_breach_settlement") {
@@ -163,7 +169,7 @@ export function callTool(name, args = {}, today = new Date().toISOString().slice
         : `No open settlement for "${company}" among the ${out.open_settlements_tracked} we track (checked ${data.generated_at.slice(0, 10)}), and no breach notice under that name in the California or Washington AG records since 2024. Check the exact name on the letter; a settlement can also be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`;
     } else out.answer = `${open.length} open settlement${open.length > 1 ? "s" : ""} match "${company}". Read the class definition back to the person; they decide if it fits. Give them the page link and the official claim site.`;
     if (args.state && open.some((s) => s.subclasses.length)) out.state_note = `They said ${String(args.state).toUpperCase()}: check each subclass definition, some pay residents of one state more.`;
-    return { out, log: { matches: open.length, closed: closed.length, notices: notices.length } };
+    return { out, log: { matches: open.length, closed: closed.length, notices: notices.length, ...(open.length ? {} : { miss: missOf(company) }) } };
   }
   if (name === "list_open_breach_settlements") {
     let list = openSettlements(data, today);
@@ -195,7 +201,7 @@ const listDoor = (args, today, extra) => {
 };
 const noMatch = (company, data, today) => ({
   out: { as_of: data.generated_at, answer: `No settlement for "${company}" among the ${openSettlements(data, today).length} open ones we track (checked ${data.generated_at.slice(0, 10)}). Check the exact name on the letter; a settlement can be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`, not_legal_advice: NOT_ADVICE },
-  log: { matches: 0 },
+  log: { matches: 0, miss: missOf(company) },
 });
 const needCompany = { out: { ok: false, error: "Pass the company named on the letter as company." }, log: { err: "no_company" }, isError: true };
 
@@ -289,7 +295,7 @@ async function logCall(tool, ok, ms, meta, extra) {
   try {
     await fetch("https://us.i.posthog.com/capture/", { method: "POST", headers: { "content-type": "application/json" }, signal: AbortSignal.timeout(1500),
       body: JSON.stringify({ api_key: PH_KEY, event: "mcp_tool_call", distinct_id: "mcp_" + hashOf(new Date().toISOString().slice(0, 10) + "|" + meta.ip + "|" + meta.ua),
-        properties: { tool, ok, ms, ...extra, client: meta.client, site: "breach-to-claim", $process_person_profile: false, $lib: "breach-to-claim-mcp" } }) });
+        properties: { tool, ok, ms, ...extra, client: meta.client, client_ua: meta.ua.split(/[\/\s]/)[0].slice(0, 40), client_ua_full: meta.ua.slice(0, 120), site: "breach-to-claim", $process_person_profile: false, $lib: "breach-to-claim-mcp" } }) });
   } catch {}
 }
 
