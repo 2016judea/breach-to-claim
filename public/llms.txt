@@ -1,16 +1,14 @@
 # Breach to Claim
 
-> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-25T20:35:31.611Z.
+> Open class-action data-breach and privacy settlements in the US, each read off its official court-authorized settlement website: claim deadline, what it pays, who is in the class, and where to file. Independent; not legal advice. Updated 2026-11-26T20:18:31.196Z.
 
-- 76 settlements open for claims; 37 close within 30 days, 15 within 7.
+- 74 settlements open for claims; 35 close within 30 days, 14 within 7.
 - MCP server (Streamable HTTP, no auth): https://breach-to-claim.vercel.app/mcp — tools find_breach_settlement, list_open_breach_settlements, breach_settlement_details.
 - Full list as JSON: https://breach-to-claim.vercel.app/settlements.json
 - Each settlement page: https://breach-to-claim.vercel.app/s/<slug>/
 
 ## Settlements
 
-- [Fujifilm Diosynth Biotechnologies U.S.A.](https://breach-to-claim.vercel.app/s/fujifilm-diosynth-biotechnologies-u-s-a/): claim by 2026-11-25, up to $2,500
-- [Johnson & Johnson Consumer](https://breach-to-claim.vercel.app/s/johnson-and-johnson-consumer-privacy/): claim by 2026-11-25
 - [Ben E. Keith Company](https://breach-to-claim.vercel.app/s/ben-e-keith-company/): claim by 2026-11-26
 - [CPAP Medical Supplies and Services](https://breach-to-claim.vercel.app/s/cpap-medical-supplies-and-services/): claim by 2026-11-26, up to $5,000
 - [Finastra Technology](https://breach-to-claim.vercel.app/s/finastra-technology/): claim by 2026-11-27, up to $2,500
