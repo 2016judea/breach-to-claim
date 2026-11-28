@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:05:53.596Z",
+ "generated_at": "2026-11-28T19:04:20.238Z",
  "model": "claude-opus-5-5",
  "settlements": [
   {
@@ -89,7 +89,7 @@
     "https://ccudatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:43.300Z",
+   "verified_at": "2026-11-28T19:00:08.601Z",
    "page_hash": "e46083c63f9353d2",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -187,7 +187,7 @@
     "https://mhadatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:16.020Z",
+   "verified_at": "2026-11-28T19:02:40.566Z",
    "page_hash": "2de2e46301400dc9",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -274,7 +274,7 @@
     "https://migdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:18.875Z",
+   "verified_at": "2026-11-28T19:02:46.185Z",
    "page_hash": "0196e96729da993e",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -363,7 +363,7 @@
     "https://ljgdatasettlement.com/important-deadlines/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:02.360Z",
+   "verified_at": "2026-11-28T19:02:26.682Z",
    "page_hash": "eee795d75f69d38d",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -452,7 +452,7 @@
     "https://vasindasdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:29.816Z",
+   "verified_at": "2026-11-28T19:03:56.553Z",
    "page_hash": "82e40498582203a1",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -538,7 +538,7 @@
     "https://lscdatasettlement.com/faqs"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:06.982Z",
+   "verified_at": "2026-11-28T19:02:31.455Z",
    "page_hash": "7fbe19a35f14b5a4",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -637,7 +637,7 @@
     "https://flbdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:50.090Z",
+   "verified_at": "2026-11-28T19:01:15.242Z",
    "page_hash": "6f92758b7acd0c3c",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -719,7 +719,7 @@
     "https://www.skin360bipasettlement.com/faqs/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:04.780Z",
+   "verified_at": "2026-11-28T19:03:31.213Z",
    "page_hash": "fdb53352dffd1d37",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -793,7 +793,7 @@
     "https://bekdataincidentsettlement.com/faqs"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:13.828Z",
+   "verified_at": "2026-11-28T18:59:39.015Z",
    "page_hash": "41596a00aab30cab",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -881,7 +881,7 @@
     "https://cpapdataincidentsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:10.527Z",
+   "verified_at": "2026-11-28T19:00:35.107Z",
    "page_hash": "f0100867c78f63b6",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -970,7 +970,7 @@
     "https://finastradatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:46.961Z",
+   "verified_at": "2026-11-28T19:01:12.248Z",
    "page_hash": "e34b8cf4f005cda5",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1059,7 +1059,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Hire Velocity",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "jacksdatabreachsettlement.com",
@@ -1153,7 +1153,7 @@
     "https://jacksdatabreachsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:33.608Z",
+   "verified_at": "2026-11-28T19:01:58.410Z",
    "page_hash": "87828499e2f939f3",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1230,7 +1230,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Evernorth Health",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "geotekcyberincident.com",
@@ -1312,7 +1312,7 @@
     "https://geotekcyberincident.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:55.596Z",
+   "verified_at": "2026-11-28T19:01:20.625Z",
    "page_hash": "6d1b14d37ea432c2",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1408,7 +1408,7 @@
     "https://holtgroupdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:05.668Z",
+   "verified_at": "2026-11-28T19:01:30.812Z",
    "page_hash": "830f0170c3d7d3fe",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1507,7 +1507,7 @@
     "https://steelwarehousedatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:10.325Z",
+   "verified_at": "2026-11-28T19:03:36.923Z",
    "page_hash": "0f9731d498aea54e",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1571,7 +1571,7 @@
     "https://carruthsettlement.com/faqs"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:37.752Z",
+   "verified_at": "2026-11-28T19:00:03.197Z",
    "page_hash": "b1763d8092024757",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1671,7 +1671,7 @@
     "https://inotivdatabreachsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:18.760Z",
+   "verified_at": "2026-11-28T19:01:43.822Z",
    "page_hash": "cf970f58944679d1",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1762,7 +1762,7 @@
     "https://institutehrdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:21.981Z",
+   "verified_at": "2026-11-28T19:01:46.574Z",
    "page_hash": "5dfab2e9d047fc06",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1862,7 +1862,7 @@
     "https://safefleetdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:56.249Z",
+   "verified_at": "2026-11-28T19:03:22.655Z",
    "page_hash": "4c5dcdc8724493e1",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -1939,7 +1939,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Fertility Centers of Illinois",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "itsbipasettlement.com",
@@ -2009,7 +2009,7 @@
     "https://itsbipasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:30.961Z",
+   "verified_at": "2026-11-28T19:01:55.708Z",
    "page_hash": "023e282eead172dd",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2084,7 +2084,7 @@
     "https://uscarcadiahospitalsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:24.064Z",
+   "verified_at": "2026-11-28T19:03:51.180Z",
    "page_hash": "c72388ed8c65325b",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2167,7 +2167,7 @@
     "https://www.wmhdatasettlement.com/Dates"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:44.942Z",
+   "verified_at": "2026-11-28T19:04:11.486Z",
    "page_hash": "b30aefcab055fc7d",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2264,7 +2264,7 @@
     "https://bhsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:19.382Z",
+   "verified_at": "2026-11-28T18:59:44.487Z",
    "page_hash": "ce03d99fcb96308a",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2369,7 +2369,7 @@
     "https://mcleandatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:09.624Z",
+   "verified_at": "2026-11-28T19:02:34.135Z",
    "page_hash": "81dd68c0a96a1b5a",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2481,7 +2481,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Kimco Staffing Services",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "bnhdatasettlement.com",
@@ -2569,7 +2569,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Brockton Neighborhood Health Center",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "brandtequitiessettlement.com",
@@ -2654,7 +2654,7 @@
     "https://brandtequitiessettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:28.381Z",
+   "verified_at": "2026-11-28T18:59:53.664Z",
    "page_hash": "4336c536e2bf522d",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2759,7 +2759,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Fairmont Federal Credit Union",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "asurebipasettlement.com",
@@ -2826,7 +2826,7 @@
     "https://asurebipasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:05.944Z",
+   "verified_at": "2026-11-28T18:59:31.365Z",
    "page_hash": "7f105d4552b47171",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2916,7 +2916,7 @@
     "https://benworthdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:16.695Z",
+   "verified_at": "2026-11-28T18:59:41.759Z",
    "page_hash": "60c7d83af999897a",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -2992,7 +2992,7 @@
     "https://datasettlementecsi.com/faqs"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:15.112Z",
+   "verified_at": "2026-11-28T19:00:39.873Z",
    "page_hash": "f93f159409bc247d",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -3092,7 +3092,7 @@
     "https://etairoshealthsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:37.020Z",
+   "verified_at": "2026-11-28T19:01:02.168Z",
    "page_hash": "14b10737d155c66e",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -3194,7 +3194,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Auxilio Mutuo",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "ircsettlement.com",
@@ -3303,7 +3303,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "American Renal Management",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "telmatedatabreachsettlement.com",
@@ -3397,7 +3397,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Telmate",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "efidatasettlement.com",
@@ -3498,7 +3498,7 @@
     "https://efidatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:30.698Z",
+   "verified_at": "2026-11-28T19:00:55.516Z",
    "page_hash": "d20750a0a92768de",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -3590,7 +3590,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "TRC Staffing Services",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "jbssettlement.com",
@@ -3667,7 +3667,7 @@
     "https://www.jbssettlement.com/Dates"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:36.360Z",
+   "verified_at": "2026-11-28T19:02:00.807Z",
    "page_hash": "f0def5b23d9e9cfd",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -3772,7 +3772,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Antigo Construction",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "cbizdatabreachsettlement.com",
@@ -3848,7 +3848,7 @@
     "https://cbizdatabreachsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:40.408Z",
+   "verified_at": "2026-11-28T19:00:05.925Z",
    "page_hash": "34d114974b9d6bf3",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -3923,7 +3923,7 @@
     "https://azlaborforcesettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:08.899Z",
+   "verified_at": "2026-11-28T18:59:34.055Z",
    "page_hash": "5e20e9a8b3bd46eb",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4014,7 +4014,7 @@
     "https://chimientidatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:50.105Z",
+   "verified_at": "2026-11-28T19:00:15.342Z",
    "page_hash": "03c54253f3361ebb",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4108,7 +4108,7 @@
     "https://graybackforestrydatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:59.360Z",
+   "verified_at": "2026-11-28T19:01:24.435Z",
    "page_hash": "7fca6f49c05f67bc",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4190,7 +4190,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Missouri Delta Medical Center",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "phsettlement.com",
@@ -4283,7 +4283,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Prime Healthcare Services",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "spaldataincident.com",
@@ -4384,7 +4384,7 @@
     "https://spaldataincident.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:07.439Z",
+   "verified_at": "2026-11-28T19:03:33.897Z",
    "page_hash": "2a443d6c57fa0c96",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4486,7 +4486,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Cardiology Associates of Mobile",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "sirvadatasettlement.com",
@@ -4603,7 +4603,7 @@
     "https://sirvadatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:02.722Z",
+   "verified_at": "2026-11-28T19:03:29.118Z",
    "page_hash": "58134b94726a25b6",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4709,7 +4709,7 @@
     "https://bauersecurityincident.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:11.761Z",
+   "verified_at": "2026-11-28T18:59:36.946Z",
    "page_hash": "18e3b100d9cb680a",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -4805,7 +4805,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Roseland Community Hospital Association",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "amcadatabreachsettlement-saca.com",
@@ -4905,7 +4905,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Sonic Healthcare U.S.A.",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "riversidedatasettlement.com",
@@ -5001,7 +5001,7 @@
     "https://riversidedatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:49.660Z",
+   "verified_at": "2026-11-28T19:03:15.931Z",
    "page_hash": "49508816cbee2129",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5095,7 +5095,7 @@
     "https://redcoatssettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:44.054Z",
+   "verified_at": "2026-11-28T19:03:10.571Z",
    "page_hash": "6a0faa167885e387",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5186,7 +5186,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Washington Gastroenterology",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "compumedicssettlement.com",
@@ -5267,7 +5267,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Compumedics USA",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "nysiddatasettlement.com",
@@ -5372,7 +5372,7 @@
     "https://nysiddatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:26.853Z",
+   "verified_at": "2026-11-28T19:02:53.645Z",
    "page_hash": "2e53ba592e8ad30f",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5478,7 +5478,7 @@
     "https://lowedataincident.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:05.011Z",
+   "verified_at": "2026-11-28T19:02:29.380Z",
    "page_hash": "6486f50c92c2ea54",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5575,7 +5575,7 @@
     "https://renkimdatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:46.704Z",
+   "verified_at": "2026-11-28T19:03:13.251Z",
    "page_hash": "8b3ef5054b162e46",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5674,7 +5674,7 @@
     "https://woodlochsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:47.809Z",
+   "verified_at": "2026-11-28T19:04:14.375Z",
    "page_hash": "dbe3f8b7b598922d",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5769,7 +5769,7 @@
     "https://blueridgedatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:22.052Z",
+   "verified_at": "2026-11-28T18:59:47.179Z",
    "page_hash": "162701d49bfa96a1",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5856,7 +5856,7 @@
     "https://cfisettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:01:47.237Z",
+   "verified_at": "2026-11-28T19:00:12.425Z",
    "page_hash": "e4c36a52fac6fcb7",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -5953,7 +5953,7 @@
     "https://vsidatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:36.796Z",
+   "verified_at": "2026-11-28T19:04:03.224Z",
    "page_hash": "8585f746d692b3bc",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6050,7 +6050,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "DaVita",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "hrmcdatasettlement.com",
@@ -6138,7 +6138,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Hampton Regional Medical Center",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "kiscosettlement.com",
@@ -6236,7 +6236,7 @@
     "https://www.kiscosettlement.com/Dates"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:46.549Z",
+   "verified_at": "2026-11-28T19:02:10.913Z",
    "page_hash": "e82ffecdc969c021",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6338,7 +6338,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Warrior Met Coal",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "columbiauniversitydatasettlement.com",
@@ -6424,7 +6424,7 @@
     "https://columbiauniversitydatasettlement.com/faqs"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:00.146Z",
+   "verified_at": "2026-11-28T19:00:24.881Z",
    "page_hash": "320248f805fc5244",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6508,7 +6508,7 @@
     "https://www.wmgdatasettlement.com/faqs/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:42.420Z",
+   "verified_at": "2026-11-28T19:04:09.138Z",
    "page_hash": "2a9e0baaeb248c09",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6606,7 +6606,7 @@
     "https://cqtcybersettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:13.172Z",
+   "verified_at": "2026-11-28T19:00:37.834Z",
    "page_hash": "5a74430cd8803531",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6684,7 +6684,7 @@
     "https://disettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:21.682Z",
+   "verified_at": "2026-11-28T19:00:46.288Z",
    "page_hash": "aa7abe957b364dc3",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -6775,7 +6775,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Doctors Imaging Group",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "academymortgagesettlement.com",
@@ -6869,7 +6869,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Academy Mortgage Corporation",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "usmsettlement.com",
@@ -6962,7 +6962,7 @@
     "https://usmsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:26.736Z",
+   "verified_at": "2026-11-28T19:03:53.887Z",
    "page_hash": "c0ebc85b5210b4de",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7051,7 +7051,7 @@
     "https://dothousedatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:24.348Z",
+   "verified_at": "2026-11-28T19:00:49.011Z",
    "page_hash": "a2ea8de19d37dd60",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7145,7 +7145,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Johnson Controls",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "yumasettlement.com",
@@ -7236,7 +7236,7 @@
     "https://www.yumasettlement.com/faqs/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:49.892Z",
+   "verified_at": "2026-11-28T19:04:16.539Z",
    "page_hash": "ec2879d72c39b752",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7353,7 +7353,7 @@
     "https://internationalcoffeesettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:03:24.631Z",
+   "verified_at": "2026-11-28T19:01:49.273Z",
    "page_hash": "40186ed45eb895b1",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7458,7 +7458,7 @@
    "unverified": [],
    "first_seen": "2026-11-19",
    "name": "Covenant Health",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "tenetpixelsettlement.com",
@@ -7533,7 +7533,7 @@
     "https://tenetpixelsettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:16.668Z",
+   "verified_at": "2026-11-28T19:03:43.551Z",
    "page_hash": "faf5a9d67850b984",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7581,7 +7581,7 @@
     "https://goodrxprivacysettlement.com/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:02:56.710Z",
+   "verified_at": "2026-11-28T19:01:21.693Z",
    "page_hash": "6fb376a2335ab84c",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7652,7 +7652,7 @@
     "https://phaseiidatasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:04:34.575Z",
+   "verified_at": "2026-11-28T19:03:01.352Z",
    "page_hash": "eac6bb4b0673fa9b",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7735,7 +7735,7 @@
     "https://zumbavppasettlement.com/dates/"
    ],
    "read_via": "http",
-   "verified_at": "2026-11-27T20:05:52.566Z",
+   "verified_at": "2026-11-28T19:04:19.200Z",
    "page_hash": "525127f9ec162a49",
    "unverified": [],
    "first_seen": "2026-11-19",
@@ -7748,14 +7748,14 @@
    "url": "https://arcaredatasettlement.com/",
    "name_hint": "Arcare",
    "skip_reason": "site walls automated reading",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "brprivacysettlement.com",
    "url": "https://brprivacysettlement.com/",
    "name_hint": "Blank Rome",
    "skip_reason": "site walls automated reading",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "cellulardataclassaction.com",
@@ -7764,7 +7764,7 @@
    "kind": "other",
    "skip_reason": "not a data-breach or privacy settlement",
    "page_hash": "9b8ad6e90715abb0",
-   "verified_at": "2026-11-27T20:01:44.355Z"
+   "verified_at": "2026-11-28T19:00:09.749Z"
   },
   {
    "official_site_key": "claim.brprivacysettlement.com",
@@ -7773,7 +7773,8 @@
    "kind": "other",
    "skip_reason": "not a data-breach or privacy settlement",
    "page_hash": "50c33265c9084459",
-   "verified_at": "2026-11-27T20:01:54.552Z"
+   "verified_at": "2026-11-27T20:01:54.552Z",
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "gatewaydataincidentsettlement.com",
@@ -7794,7 +7795,7 @@
    "kind": "privacy_tracking",
    "skip_reason": "not a settlement taking claims",
    "page_hash": "ad3169907d7c728a",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "lacountymcjmasssearchsettlement.com",
@@ -7803,19 +7804,25 @@
    "kind": "other",
    "skip_reason": "not a data-breach or privacy settlement",
    "page_hash": "1031241cceeb4745",
-   "verified_at": "2026-11-27T20:03:53.093Z"
+   "verified_at": "2026-11-28T19:02:17.324Z"
   },
   {
    "official_site_key": "lakeregionalsettlement.com",
    "url": "https://lakeregionalsettlement.com/",
    "name_hint": "Lake Regional Health System",
    "skip_reason": "site walls automated reading",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "lakesidesettlement.com",
    "url": "https://lakesidesettlement.com/",
    "name_hint": "Lakeside Pediatric",
+   "skip_reason": "new, not read yet"
+  },
+  {
+   "official_site_key": "midmichiganmedicaldatasettlement.com",
+   "url": "https://midmichiganmedicaldatasettlement.com/",
+   "name_hint": "mid michigan medical data settlement",
    "skip_reason": "new, not read yet"
   },
   {
@@ -7835,14 +7842,14 @@
    "url": "https://parkdentaldatasecuritysettlement.com/",
    "name_hint": "Park Dental",
    "skip_reason": "site walls automated reading",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "pcsdatasettlement.com",
    "url": "https://pcsdatasettlement.com/",
    "name_hint": "pcs data settlement",
    "skip_reason": "site did not load",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "pohnssettlement.com",
@@ -7855,14 +7862,14 @@
    "url": "https://simplilearnprivacysettlement.com/",
    "name_hint": "Simplilearn",
    "skip_reason": "site walls automated reading",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "ufcw7datasettlement.com",
    "url": "https://ufcw7datasettlement.com/",
    "name_hint": "United Food and Commercial Workers Union",
    "skip_reason": "site did not load",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   },
   {
    "official_site_key": "venetianlasvegassettlement.com",
@@ -7871,7 +7878,7 @@
    "kind": "other",
    "skip_reason": "not a data-breach or privacy settlement",
    "page_hash": "7ce37ea3b209bceb",
-   "last_read_failed": "2026-11-27"
+   "last_read_failed": "2026-11-28"
   }
  ]
 }
