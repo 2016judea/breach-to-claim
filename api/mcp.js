@@ -5,6 +5,11 @@
 import crypto from "node:crypto";
 import { loadData, statusOf, openSettlements, matchSettlements, matchNotices, summary, money } from "../lib/data.js";
 import { checklist, noDocsOption } from "../lib/checklist.js";
+import { boardTools, boardInstructions, callBoardTool, isBoardTool } from "../lib/board.js";
+
+// The shared Brick & Mortar request board (lib/board.js). `slug` is this connector's row in bricks data/connectors.json.
+export const BOARD = { slug: "breach-to-claim", name: "Breach to Claim", asks: "a settlement or company it does not track, a kind of class action it does not cover, a field a settlement page lacks", breaks: "a wrong deadline or amount, a dead claim link, a settlement that should have matched" };
+const NEXT_REQUEST = "If the person wants this settlement or company added, request_a_feature files that on the public request board, with their agreement.";
 
 export const SITE = "https://breach-to-claim.vercel.app";
 const VERSION = "0.1.0";
@@ -89,8 +94,9 @@ export const DOOR_TOOLS = [
     { company: COMPANY }, ["company"]),
 ];
 TOOLS.push(...DOOR_TOOLS);
+TOOLS.push(...boardTools(BOARD));
 
-export const INSTRUCTIONS = "Breach to Claim answers 'am I owed money from the X data breach, and how do I claim?' Use find_breach_settlement with the company on the person's breach letter; list_open_breach_settlements for what is open now or closing soon; breach_settlement_details for one settlement. Shortcuts for common questions: settlements_closing_soon, breach_settlements_no_proof_needed, tracking_pixel_privacy_settlements, biggest_breach_settlement_payouts, is_this_settlement_letter_real, settlement_claim_deadline, how_much_will_i_get_from_settlement, how_to_file_breach_claim, did_company_have_data_breach. Quote deadlines and amounts exactly as returned, read the class definition back to the person rather than deciding for them, and always give the page link and the official claim site. Never ask for a Social Security number, notice ID, claim ID or name: none is needed, and claims are filed and signed by the person on the official site. Not legal advice.";
+export const INSTRUCTIONS = "Breach to Claim answers 'am I owed money from the X data breach, and how do I claim?' Use find_breach_settlement with the company on the person's breach letter; list_open_breach_settlements for what is open now or closing soon; breach_settlement_details for one settlement. Shortcuts for common questions: settlements_closing_soon, breach_settlements_no_proof_needed, tracking_pixel_privacy_settlements, biggest_breach_settlement_payouts, is_this_settlement_letter_real, settlement_claim_deadline, how_much_will_i_get_from_settlement, how_to_file_breach_claim, did_company_have_data_breach. Quote deadlines and amounts exactly as returned, read the class definition back to the person rather than deciding for them, and always give the page link and the official claim site. Never ask for a Social Security number, notice ID, claim ID or name: none is needed, and claims are filed and signed by the person on the official site. Not legal advice." + " " + boardInstructions(BOARD);
 
 export function tag(url) {
   url = String(url);
@@ -167,6 +173,7 @@ export function callTool(name, args = {}, today = new Date().toISOString().slice
       out.answer = notices.length
         ? `No open settlement for "${company}" among the ${out.open_settlements_tracked} we track (checked ${data.generated_at.slice(0, 10)}). The breach is on public record (below). Settlements usually come long after the notice: keep the letter, since a claim form will ask for the code on it, and keep receipts for any costs it causes. Every open settlement: ${tag(SITE + "/")}`
         : `No open settlement for "${company}" among the ${out.open_settlements_tracked} we track (checked ${data.generated_at.slice(0, 10)}), and no breach notice under that name in the California or Washington AG records since 2024. Check the exact name on the letter; a settlement can also be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`;
+      out.next = NEXT_REQUEST;
     } else out.answer = `${open.length} open settlement${open.length > 1 ? "s" : ""} match "${company}". Read the class definition back to the person; they decide if it fits. Give them the page link and the official claim site.`;
     if (args.state && open.some((s) => s.subclasses.length)) out.state_note = `They said ${String(args.state).toUpperCase()}: check each subclass definition, some pay residents of one state more.`;
     return { out, log: { matches: open.length, closed: closed.length, notices: notices.length, ...(open.length ? {} : { miss: missOf(company) }) } };
@@ -200,7 +207,7 @@ const listDoor = (args, today, extra) => {
   return r;
 };
 const noMatch = (company, data, today) => ({
-  out: { as_of: data.generated_at, answer: `No settlement for "${company}" among the ${openSettlements(data, today).length} open ones we track (checked ${data.generated_at.slice(0, 10)}). Check the exact name on the letter; a settlement can be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`, not_legal_advice: NOT_ADVICE },
+  out: { as_of: data.generated_at, answer: `No settlement for "${company}" among the ${openSettlements(data, today).length} open ones we track (checked ${data.generated_at.slice(0, 10)}). Check the exact name on the letter; a settlement can be listed under a parent company. Every open settlement: ${tag(SITE + "/")}`, next: NEXT_REQUEST, not_legal_advice: NOT_ADVICE },
   log: { matches: 0, miss: missOf(company) },
 });
 const needCompany = { out: { ok: false, error: "Pass the company named on the letter as company." }, log: { err: "no_company" }, isError: true };
@@ -310,7 +317,12 @@ export async function handleOne(msg, meta) {
   if (method === "tools/call") {
     const t0 = Date.now(), tool = String((params && params.name) || "");
     let r;
-    try { r = callTool(tool, (params && params.arguments) || {}); }
+    try {
+      if (isBoardTool(tool)) {
+        const out = await callBoardTool(BOARD, tool, (params && params.arguments) || {}, { token: process.env.MCP_FEEDBACK_TOKEN, voter: hashOf(meta.ip + "|" + meta.ua), client: meta.client });
+        r = { out, log: { board: out.ok === false ? "not_ok" : "ok" } };
+      } else r = callTool(tool, (params && params.arguments) || {});
+    }
     catch (e) { r = { out: { ok: false, error: "Error: " + e.message }, log: { err: "exception" }, isError: true }; }
     const known = TOOLS.some((x) => x.name === tool);
     await logCall(known ? tool : "unknown", !r.isError, Date.now() - t0, meta, { ...(r.log || {}), ...(known ? {} : { attempted: tool.replace(/[^A-Za-z0-9_.-]/g, "").slice(0, 60) }) });

@@ -44,3 +44,11 @@ Read it before the next pass: it is the cheapest list of missing doors there is.
 | payout status | "when will I get paid", "did my claim go through" | lives with the administrator, behind the claim ID we never take; details returns the administrator contact |
 | non-breach class actions | "settlements for a product I bought" | outside the data model (DATA_MODEL.md); breach and privacy settlements only |
 | closed settlements in depth | "what did the Equifax settlement pay" | closed ones are kept only when a lookup matches them; no door ranks past payouts |
+
+## About the connector itself (added 2026-11-27, inferred: no calls on record yet)
+
+| theme | user's words | tool |
+|---|---|---|
+| can you add X | "can you add X", "I wish it covered Y", "is Z coming" | `request_a_feature`; `list_feature_requests` and `upvote_feature_request` when it is already on the board |
+| this is broken | "that's wrong", "it errored", "the link is dead" | `report_a_bug` |
+| what else do you make | "what else does Brick & Mortar make", "is there one of these for permits" | `other_brick_and_mortar_connectors` |

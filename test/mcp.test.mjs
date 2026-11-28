@@ -87,7 +87,7 @@ test("checklist follows the two answers", () => {
 test("JSON-RPC: initialize, tools/list, tools/call", async () => {
   const meta = { ip: "t", ua: "test", client: "script", test: true };
   assert.equal((await handleOne({ id: 1, method: "initialize", params: {} }, meta)).result.serverInfo.name, "breach-to-claim");
-  assert.equal((await handleOne({ id: 2, method: "tools/list" }, meta)).result.tools.length, 12);
+  assert.equal((await handleOne({ id: 2, method: "tools/list" }, meta)).result.tools.length, 17);
   const r = await handleOne({ id: 3, method: "tools/call", params: { name: "list_open_breach_settlements", arguments: { limit: 3 } } }, meta);
   assert.ok(r.result.structuredContent.settlements.length <= 3);
   for (const t of TOOLS) for (const k of ["readOnlyHint", "destructiveHint", "openWorldHint", "idempotentHint"]) assert.equal(typeof t.annotations[k], "boolean");
@@ -106,4 +106,25 @@ test("theme doors answer in the user's words", async () => {
   assert.match(miss.structuredContent.answer, /^No settlement for/);
   assert.equal((await call("how_to_file_breach_claim", {})).isError, true);
   assert.equal((await call("no_such_tool", {})).isError, true);
+});
+
+test("request board tools: listed, annotated, and fail soft with the board link", async () => {
+  const meta = { ip: "t", ua: "test", client: "script", test: true };
+  const names = TOOLS.map((t) => t.name);
+  for (const n of ["request_a_feature", "report_a_bug", "list_feature_requests", "upvote_feature_request", "other_brick_and_mortar_connectors"]) assert.ok(names.includes(n), n);
+  const ann = (n) => TOOLS.find((t) => t.name === n).annotations;
+  assert.equal(ann("request_a_feature").readOnlyHint, false);
+  assert.equal(ann("request_a_feature").destructiveHint, false);
+  assert.equal(ann("list_feature_requests").readOnlyHint, true);
+  for (const t of TOOLS.slice(-5)) assert.doesNotMatch(t.description, /\$|subscribe|upgrade|checkout|pricing/i, t.name);
+  const call = async (name, args) => (await handleOne({ id: 9, method: "tools/call", params: { name, arguments: args } }, meta)).result;
+  const saved = process.env.MCP_FEEDBACK_TOKEN; delete process.env.MCP_FEEDBACK_TOKEN;
+  const r = await call("request_a_feature", { title: "add the Acme settlement" }); // no token: nothing is sent
+  assert.equal(r.isError, undefined);
+  assert.equal(r.structuredContent.ok, false);
+  assert.match(r.structuredContent.message, /brickandmortar\.dev\/requests/);
+  assert.equal((await call("request_a_feature", {})).structuredContent.needs.length > 0, true);
+  if (saved) process.env.MCP_FEEDBACK_TOKEN = saved;
+  const miss = await call("find_breach_settlement", { company: "Zzyzx Nonexistent Holdings" });
+  assert.match(miss.structuredContent.next, /request_a_feature/);
 });

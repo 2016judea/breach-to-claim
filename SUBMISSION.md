@@ -144,3 +144,19 @@ Testing (554 chars):
 
 > No account or credentials needed. Add the MCP URL as a remote server, then try: 1) "I got a letter saying my data was in the Columbia University breach. Am I owed money?" -> find_breach_settlement: claim deadline Jan 21, 2027, documented losses up to $8,500 or a cash payment, official claim site. 2) "Which data breach settlements close this week?" -> list_open_breach_settlements with deadlines. 3) "Any data breach settlements I can claim without receipts?" -> settlements with a no-documents option. Counts change daily as settlements open and close.
 
+## Request board and sibling list (added 2026-11-27; the filed listings predate these five tools)
+
+Five tools shared by every Brick & Mortar connector (`board` module; contract in bricks `docs/REQUESTS_CONTRACT.md`).
+They post to and read the public board at https://brickandmortar.dev/requests. No account is needed for them.
+
+| Tool | readOnly | destructive | openWorld | idempotent | What it does |
+|---|---|---|---|---|---|
+| request_a_feature | false | false | true | false | Files a feature request for Breach to Claim on the public board |
+| report_a_bug | false | false | true | false | Files a bug report (tool, input, error text) on the public board |
+| list_feature_requests | true | false | true | true | Reads this connector's requests and their status |
+| upvote_feature_request | false | false | true | true | Adds one upvote to a request, one per caller |
+| other_brick_and_mortar_connectors | true | false | true | true | Lists Brick & Mortar's other connectors: name, what each answers, scope, where listed. No prices or plans |
+
+Test cases: "What has been requested for Breach to Claim?" -> list_feature_requests returns the board rows.
+"What else does Brick & Mortar make?" -> other_brick_and_mortar_connectors returns names and listing links.
+A write with the board unreachable returns `ok: false` with the board link, never a tool error.
